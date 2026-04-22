@@ -11,10 +11,16 @@ Extends Rohan Gupta's sandwich-probing method
 | Metric | Value |
 |---|---:|
 | Verified 4.7 single-tokens | **14,036** |
+| **Of those, also single-tokens on 4.6** (live-API checked) | **14,034 (99.986 %)** |
+| **Genuinely novel in 4.7** (not a 4.6 single-token) | **2** |
 | Total API probes | ~1.37 M |
 | Weighted greedy efficiency vs live API | **~85 %** |
 | Live-API validation on random 500-token sample | **100 %** |
 | Reference: Gupta's 4.6 vocab (this repo also ships it) | 38,360 |
+
+> **Bottom line:** 4.7's sandwich-reachable vocabulary is effectively a
+> **subset** of 4.6's. Every verified 4.7 single-token except two
+> (`################` and `);););`) is also a single token on 4.6.
 
 Per-domain greedy efficiency (greedy-token-count / API-token-count):
 
@@ -38,10 +44,12 @@ samples in 30+ domains. Full tables in
 [`docs/VALIDATE_NOVEL.md`](docs/VALIDATE_NOVEL.md), and
 [`docs/EFFICIENCY.md`](docs/EFFICIENCY.md).
 
-### 1. The 4.7 vocabulary is nearly a subset of 4.6's
+### 1. Every single 4.7 single-token is also a 4.6 single-token (minus 2)
 
-Of **14,036** sandwich-reachable 4.7 tokens, we validated each against both
-models' `count_tokens` endpoints. All but two are also single tokens on 4.6:
+We validated all **14,036** sandwich-reachable 4.7 tokens against both
+models' `count_tokens` endpoints. **14,034 of 14,036 (99.986 %)** are
+also single tokens on 4.6 — i.e. **4.7's vocabulary is a subset of 4.6's**
+except for two merges:
 
 | 4.7 tokens | count |
 |---|---:|
