@@ -29,6 +29,88 @@ Per-domain greedy efficiency (greedy-token-count / API-token-count):
 See [`docs/RESULTS.md`](docs/RESULTS.md) for the full per-phase yield breakdown
 and [`docs/methods.md`](docs/methods.md) for the catalog of every method used.
 
+## 4.6 vs 4.7 — what actually changed
+
+Once the 4.7 vocabulary was reconstructed, we compared it directly against
+Gupta's 4.6 vocabulary and ran a live-API efficiency study across 46
+samples in 30+ domains. Full tables in
+[`docs/COMPARE_46_47.md`](docs/COMPARE_46_47.md),
+[`docs/VALIDATE_NOVEL.md`](docs/VALIDATE_NOVEL.md), and
+[`docs/EFFICIENCY.md`](docs/EFFICIENCY.md).
+
+### 1. The 4.7 vocabulary is nearly a subset of 4.6's
+
+Of **14,036** sandwich-reachable 4.7 tokens, we validated each against both
+models' `count_tokens` endpoints. All but two are also single tokens on 4.6:
+
+| 4.7 tokens | count |
+|---|---:|
+| in Gupta's 4.6 verified set | 7,569 |
+| not in Gupta but **confirmed single on 4.6** via live API | ~6,465 |
+| **genuinely novel to 4.7** (single on 4.7, NOT single on 4.6) | **2** |
+
+The two net-new merges are `################` (16 × `#`) and `);););`
+(`)` `;` `)` `;`). Every other verified 4.7 token was already a 4.6 token —
+Gupta's cross-tokenizer mining simply never probed most of them.
+
+### 2. Live-API efficiency, 4.7 vs 4.6 (ratio = tokens(4.7) / tokens(4.6))
+
+|| avg ratio ||
+|---|---:|---|
+| thai / arabic / greek / hebrew / hindi | **1.00–1.00** | no change |
+| russian (classical, biography, modern) | **1.00–1.02** | no change |
+| korean | 1.01 | no change |
+| japanese | 1.10 | +10 % |
+| chinese | 1.15 | +15 % |
+| emoji / math / JSON / logs | 1.11–1.22 | |
+| code (C, CSS, Ruby, Python, Rust, SQL, HTML, C++, Bash, YAML, Go, Java, TS, JS, Kotlin) | **1.21–1.51** | up to +51 % |
+| **english prose (classical + modern)** | **1.39–1.49** | **+40–49 %** |
+| `# × 500` | 3.30 | worst outlier |
+
+4.7 is **essentially tied with 4.6 on every non-English non-Latin script**,
+and **25–50 % worse on English and code**.
+
+### 3. The mechanism: base English merges dropped; casing markers kept
+
+4.6 compressed common English words as single whole-word tokens
+(`"learning"`, `"function"`, `"algorithm"` = 1 token each). 4.7 dropped
+most of those merges. Live probes:
+
+| word | 4.6 lower | 4.7 lower | 4.6 UPPER | 4.7 UPPER |
+|---|---:|---:|---:|---:|
+| `hello` | 1 | 2 | 2 | 4 |
+| `function` | 1 | 1 | 2 | 6 |
+| `algorithm` | 1 | **4** | 2 | **7** |
+| `understanding` | 1 | **3** | 2 | **9** |
+| `NULL_POINTER_EXCEPTION` | 7 | **16** | — | — |
+
+The **"+1 per word" all-caps penalty is identical on both models** — 4.6
+and 4.7 each add exactly one token when an N-word lowercase phrase is
+converted to all-caps, regardless of N. That's the signature of an
+Anthropic-specific Caps Lock / morphology marker (previously documented
+by [Sander Land](https://tokencontributions.substack.com/p/whole-words-and-claude-tokenization)),
+and it survives intact in 4.7. What went away is the *base* English whole-
+word vocabulary that the marker was paired with.
+
+### 4. Why? (speculation)
+
+Anthropic's release-note wording — *"4.7 uses an updated tokenizer that
+improves how the model processes text"* — is not about bytes-per-token
+efficiency. Candidate reasons the vocab was narrowed:
+
+- **Smaller embedding matrix.** Fewer whole-word English merges → smaller
+  vocab → smaller input/output embedding tables → faster to train and serve.
+- **Cross-lingual fairness.** 4.6's English was the outlier at 3.85 B/tok
+  while Russian was at 4.90 B/tok. On 4.7 they converge at 2.76 vs 4.81
+  (the disparity roughly halves).
+- **Instruction-following regularisation.** Anthropic's migration guide
+  calls out *"more literal instruction following"* as a 4.7 property.
+  Fewer memorised whole-word tokens forces compositional subword
+  tokenisation, which plausibly reduces overfitting to specific phrasings.
+- [Artificial Analysis data (via HN)](https://news.ycombinator.com/item?id=47816960)
+  shows 4.7 producing **~38 % fewer output tokens** than 4.6 on the same
+  benchmark suite. Input fertility up, output fertility down.
+
 ## Running
 
 ```bash
@@ -91,11 +173,14 @@ deltas, or a tokenize endpoint).
 │                               (rotating at 100 MB, gzipped)
 ├── data/outputs/               auxiliary analyses
 │   └── opus_46_new_tokens.json
+├── corpus_eff/                 fetched multilingual Wikipedia + open-source
+│                               code samples used by the efficiency study
 ├── docs/
 │   ├── methods.md              all methods with yields
 │   ├── RESULTS.md              final numbers
 │   ├── COMPARE_46_47.md        4.6 vs 4.7 comparison
-│   └── VALIDATE_NOVEL.md       live-API validation of 4.7-novel tokens
+│   ├── VALIDATE_NOVEL.md       live-API validation of 4.7-novel tokens
+│   └── EFFICIENCY.md           46-sample, 30-domain 4.6-vs-4.7 efficiency study
 ├── scripts/                    status.sh, run_all_after.sh
 └── logs/                       one log per pipeline invocation
 ```
