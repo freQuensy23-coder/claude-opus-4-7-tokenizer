@@ -1,0 +1,22 @@
+
+=== phase: kgram ===
+[kgram] corpus size: 4305796 bytes
+[kgram] unique k-grams (freq>=5): 842579
+[kgram] new to probe (capped at 600000): 600000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[kgram] resume: 45337 already done, 600000 pending
+[kgram] 500/600000 hits=2 rpm~12629 conc=80 inflight=79 429=0
+[kgram] 1000/600000 hits=3 rpm~9933 conc=100 inflight=98 429=0
+[kgram] 1500/600000 hits=8 rpm~6292 conc=125 inflight=122 429=0
+[kgram] 2000/600000 hits=11 rpm~5733 conc=195 inflight=143 429=0
+[kgram] 2500/600000 hits=13 rpm~4601 conc=243 inflight=242 429=0
+[kgram] 3000/600000 hits=15 rpm~3001 conc=300 inflight=0 429=0
+[kgram] 3500/600000 hits=15 rpm~3114 conc=300 inflight=297 429=0
+[kgram] 4000/600000 hits=16 rpm~3022 conc=300 inflight=299 429=0
+[kgram] 4500/600000 hits=20 rpm~3072 conc=300 inflight=299 429=0
+[kgram] 5000/600000 hits=21 rpm~3052 conc=300 inflight=0 429=0
+[kgram] 5500/600000 hits=21 rpm~3049 conc=300 inflight=297 429=0
+[kgram] 6000/600000 hits=23 rpm~3004 conc=300 inflight=0 429=0
+[kgram] 6500/600000 hits=23 rpm~3014 conc=300 inflight=276 429=0
+[kgram] 7000/600000 hits=24 rpm~2963 conc=300 inflight=299 429=0
+[kgram] 7500/600000 hits=24 rpm~2987 conc=300 inflight=291 429=0

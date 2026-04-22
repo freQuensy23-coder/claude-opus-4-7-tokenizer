@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv
+env
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Secrets (never commit)
+.env
+.env.local
+*.key
+secrets/
+credentials.json

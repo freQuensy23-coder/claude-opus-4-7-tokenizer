@@ -1,0 +1,25 @@
+[main] |only47| = 5,624
+[on 4.7] 0 cached, 5,624 pending (total 5,624)
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[on 4.7] 500/5,624 hits=500 rpm~7775 conc=80 inflight=79 429=0
+[on 4.7] 1,000/5,624 hits=1,000 rpm~10231 conc=100 inflight=99 429=0
+[on 4.7] 1,500/5,624 hits=1,500 rpm~9948 conc=125 inflight=123 429=0
+[on 4.7] 2,000/5,624 hits=2,000 rpm~6256 conc=195 inflight=0 429=0
+[on 4.7] 2,500/5,624 hits=2,500 rpm~5531 conc=243 inflight=231 429=0
+[on 4.7] 3,000/5,624 hits=3,000 rpm~2967 conc=300 inflight=0 429=0
+[on 4.7] 3,500/5,624 hits=3,500 rpm~3086 conc=300 inflight=295 429=0
+[on 4.7] 4,000/5,624 hits=4,000 rpm~3122 conc=300 inflight=0 429=0
+[on 4.7] 4,500/5,624 hits=4,500 rpm~3172 conc=300 inflight=234 429=0
+[on 4.7] 5,000/5,624 hits=5,000 rpm~3072 conc=300 inflight=299 429=0
+[on 4.7] 5,500/5,624 hits=5,500 rpm~3070 conc=300 inflight=124 429=0
+[on 4.7] finished 5,624 probes in 108.6s (3108 rpm); hits=5,624
+[on 4.6] 0 cached, 5,624 pending (total 5,624)
+[counter] model=claude-opus-4-6 baseline(§§)=9
+[on 4.6] 500/5,624 hits=499 rpm~7936 conc=80 inflight=79 429=0
+[on 4.6] 1,000/5,624 hits=999 rpm~10485 conc=100 inflight=99 429=0
+[on 4.6] 1,500/5,624 hits=1,499 rpm~5070 conc=4 inflight=3 429=24
+[on 4.6] 2,000/5,624 hits=1,999 rpm~2383 conc=8 inflight=0 429=24
+[on 4.6] 2,500/5,624 hits=2,499 rpm~2259 conc=12 inflight=11 429=24
+[on 4.6] 3,000/5,624 hits=2,999 rpm~2335 conc=20 inflight=19 429=24
+[on 4.6] 3,500/5,624 hits=3,499 rpm~2474 conc=25 inflight=24 429=24
+[on 4.6] 4,000/5,624 hits=3,998 rpm~2633 conc=31 inflight=0 429=24

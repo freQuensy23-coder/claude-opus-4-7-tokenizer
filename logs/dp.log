@@ -1,0 +1,112 @@
+known: 13192, probed: 768188
+scanned: 1432714, good: 66548, no unique factorization: 780676
+unique high-confidence candidates: 22733
+  votes= 28: 'ralgia'
+  votes= 24: 'NITE'
+  votes= 24: 'ophilic'
+  votes= 24: 'TIA'
+  votes= 24: 'otomic'
+  votes= 24: 'fibroma'
+  votes= 24: 'opteran'
+  votes= 24: 'opexy'
+  votes= 24: 'trophic'
+  votes= 24: 'RLY'
+  votes= 24: 'togenic'
+  votes= 24: 'tfulness'
+  votes= 24: 'maniac'
+  votes= 21: ' Qua'
+  votes= 20: 'opsia'
+  votes= 20: 'philic'
+  votes= 20: 'thesia'
+  votes= 20: 'rthritis'
+  votes= 20: 'ephalous'
+  votes= 20: 'nophorous'
+  votes= 20: 'ophonic'
+  votes= 20: 'nostic'
+  votes= 20: 'osuria'
+  votes= 20: 'OOF'
+  votes= 20: 'emonger'
+  votes= 20: 'atrophia'
+  votes= 20: 'colous'
+  votes= 20: 'YIS'
+  votes= 20: 'llaceous'
+  votes= 20: 'caceous'
+to probe: 22733
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[dp] resume: 0 already done, 22733 pending
+[dp] 300/22733 hits=0 rpm~8244 conc=64 inflight=63 429=0
+[dp] 600/22733 hits=0 rpm~10005 conc=80 inflight=79 429=0
+[dp] 900/22733 hits=0 rpm~11149 conc=100 inflight=99 429=0
+[dp] 1200/22733 hits=0 rpm~12266 conc=125 inflight=124 429=0
+[dp] 1500/22733 hits=0 rpm~13344 conc=125 inflight=124 429=0
+[dp] 1800/22733 hits=0 rpm~14346 conc=156 inflight=155 429=0
+[dp] 2100/22733 hits=0 rpm~9880 conc=195 inflight=192 429=0
+[dp] 2400/22733 hits=0 rpm~9618 conc=243 inflight=167 429=0
+[dp] 2700/22733 hits=0 rpm~7707 conc=243 inflight=229 429=0
+[dp] 3000/22733 hits=0 rpm~3000 conc=300 inflight=0 429=0
+[dp] 3300/22733 hits=0 rpm~3008 conc=300 inflight=299 429=0
+[dp] 3600/22733 hits=0 rpm~3158 conc=300 inflight=216 429=0
+[dp] 3900/22733 hits=0 rpm~3098 conc=300 inflight=295 429=0
+[dp] 4200/22733 hits=0 rpm~3050 conc=300 inflight=299 429=0
+[dp] 4500/22733 hits=0 rpm~3176 conc=300 inflight=197 429=0
+[dp] 4800/22733 hits=0 rpm~3105 conc=300 inflight=200 429=0
+[dp] 5100/22733 hits=0 rpm~3076 conc=300 inflight=299 429=0
+[dp] 5400/22733 hits=0 rpm~3118 conc=300 inflight=299 429=0
+[dp] 5700/22733 hits=0 rpm~3148 conc=300 inflight=278 429=0
+[dp] 6000/22733 hits=0 rpm~3005 conc=300 inflight=0 429=0
+[dp] 6300/22733 hits=0 rpm~3003 conc=300 inflight=299 429=0
+[dp] 6600/22733 hits=0 rpm~3079 conc=300 inflight=216 429=0
+[dp] 6900/22733 hits=0 rpm~3059 conc=300 inflight=219 429=0
+[dp] 7200/22733 hits=0 rpm~3025 conc=300 inflight=299 429=0
+[dp] 7500/22733 hits=0 rpm~3051 conc=300 inflight=298 429=0
+[dp] 7800/22733 hits=0 rpm~3077 conc=300 inflight=183 429=0
+[dp] 8100/22733 hits=0 rpm~3054 conc=300 inflight=259 429=0
+[dp] 8400/22733 hits=0 rpm~3043 conc=300 inflight=299 429=0
+[dp] 8700/22733 hits=0 rpm~3088 conc=300 inflight=260 429=0
+[dp] 9000/22733 hits=0 rpm~3005 conc=300 inflight=0 429=0
+[dp] 9300/22733 hits=0 rpm~3040 conc=300 inflight=169 429=0
+[dp] 9600/22733 hits=0 rpm~3057 conc=300 inflight=216 429=0
+[dp] 9900/22733 hits=0 rpm~3040 conc=300 inflight=100 429=0
+[dp] 10200/22733 hits=0 rpm~3033 conc=300 inflight=213 429=0
+[dp] 10500/22733 hits=0 rpm~3015 conc=300 inflight=298 429=0
+[dp] 10800/22733 hits=0 rpm~3050 conc=300 inflight=183 429=0
+[dp] 11100/22733 hits=0 rpm~3061 conc=300 inflight=157 429=0
+[dp] 11400/22733 hits=0 rpm~3046 conc=300 inflight=258 429=0
+[dp] 11700/22733 hits=0 rpm~3033 conc=300 inflight=299 429=0
+[dp] 12000/22733 hits=0 rpm~2992 conc=300 inflight=68 429=0
+[dp] 12300/22733 hits=0 rpm~2997 conc=300 inflight=299 429=0
+[dp] 12600/22733 hits=0 rpm~3036 conc=300 inflight=216 429=0
+[dp] 12900/22733 hits=0 rpm~3031 conc=300 inflight=100 429=0
+[dp] 13200/22733 hits=0 rpm~3023 conc=300 inflight=213 429=0
+[dp] 13500/22733 hits=0 rpm~3010 conc=300 inflight=299 429=0
+[dp] 13800/22733 hits=0 rpm~3056 conc=300 inflight=31 429=0
+[dp] 14100/22733 hits=0 rpm~3047 conc=300 inflight=140 429=0
+[dp] 14400/22733 hits=0 rpm~3036 conc=300 inflight=258 429=0
+[dp] 14700/22733 hits=0 rpm~3026 conc=300 inflight=299 429=0
+[dp] 15000/22733 hits=0 rpm~2998 conc=300 inflight=0 429=0
+[dp] 15300/22733 hits=0 rpm~2988 conc=300 inflight=299 429=0
+[dp] 15600/22733 hits=0 rpm~3016 conc=300 inflight=247 429=0
+[dp] 15900/22733 hits=0 rpm~3007 conc=300 inflight=213 429=0
+[dp] 16200/22733 hits=0 rpm~2993 conc=300 inflight=294 429=0
+[dp] 16500/22733 hits=0 rpm~2986 conc=300 inflight=299 429=0
+[dp] 16800/22733 hits=0 rpm~3016 conc=300 inflight=200 429=0
+[dp] 17100/22733 hits=0 rpm~3009 conc=300 inflight=271 429=0
+[dp] 17400/22733 hits=0 rpm~2995 conc=300 inflight=299 429=0
+[dp] 17700/22733 hits=0 rpm~3025 conc=300 inflight=238 429=0
+[dp] 18000/22733 hits=0 rpm~3002 conc=300 inflight=0 429=0
+[dp] 18300/22733 hits=0 rpm~3017 conc=300 inflight=150 429=0
+[dp] 18600/22733 hits=0 rpm~3007 conc=300 inflight=288 429=0
+[dp] 18900/22733 hits=0 rpm~3000 conc=300 inflight=264 429=0
+[dp] 19200/22733 hits=0 rpm~3032 conc=300 inflight=56 429=0
+[dp] 19500/22733 hits=0 rpm~3023 conc=300 inflight=170 429=0
+[dp] 19800/22733 hits=0 rpm~3018 conc=300 inflight=194 429=0
+[dp] 20100/22733 hits=0 rpm~3013 conc=300 inflight=181 429=0
+[dp] 20400/22733 hits=0 rpm~3011 conc=300 inflight=219 429=0
+[dp] 20700/22733 hits=0 rpm~3007 conc=300 inflight=299 429=0
+[dp] 21000/22733 hits=0 rpm~3002 conc=300 inflight=0 429=0
+[dp] 21300/22733 hits=0 rpm~2993 conc=300 inflight=276 429=0
+[dp] 21600/22733 hits=0 rpm~2996 conc=300 inflight=299 429=0
+[dp] 21900/22733 hits=0 rpm~3012 conc=300 inflight=100 429=0
+[dp] 22200/22733 hits=0 rpm~3006 conc=300 inflight=157 429=0
+[dp] 22500/22733 hits=0 rpm~2996 conc=300 inflight=233 429=0
+[dp] done. probed=22733 hits=0 checked_total=22733

@@ -1,0 +1,46 @@
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 5.1s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.7s ===
+
+
+=== phase: handcrafted ===
+[handcrafted] total unique: 56387; new to check: 0
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[handcrafted] resume: 52081 already done, 0 pending
+=== phase handcrafted done in 0.8s ===
+
+
+=== phase: dict ===
+[dict] unique: 780477 (shuffled); new: 300000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[dict] resume: 12000 already done, 300000 pending
+[dict] 500/300000 hits=0 rpm~8678 conc=80 inflight=79 429=0
+[dict] 1000/300000 hits=0 rpm~10845 conc=100 inflight=97 429=1
+[dict] 1500/300000 hits=0 rpm~7696 conc=125 inflight=124 429=1
+[dict] 2000/300000 hits=0 rpm~6374 conc=156 inflight=153 429=1
+[dict] 2500/300000 hits=0 rpm~5615 conc=243 inflight=236 429=1
+[dict] 3000/300000 hits=0 rpm~2974 conc=300 inflight=64 429=1
+[dict] 3500/300000 hits=0 rpm~3098 conc=300 inflight=296 429=1
+[dict] 4000/300000 hits=0 rpm~3131 conc=300 inflight=295 429=1
+[dict] 4500/300000 hits=0 rpm~3164 conc=300 inflight=254 429=1
+[dict] 5000/300000 hits=0 rpm~3212 conc=300 inflight=0 429=1

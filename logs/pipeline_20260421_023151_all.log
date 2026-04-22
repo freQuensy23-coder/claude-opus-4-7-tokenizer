@@ -1,0 +1,40 @@
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 4.9s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.8s ===
+
+
+=== phase: context ===
+[context] seed vocab: 39005; generated: 704096; new to probe: 400000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[context] resume: 0 already done, 400000 pending
+[context] 500/400000 hits=1 rpm~8906 conc=80 inflight=79 429=0
+[context] 1000/400000 hits=5 rpm~8454 conc=100 inflight=99 429=0
+[context] 1500/400000 hits=7 rpm~5708 conc=125 inflight=124 429=0
+[context] 2000/400000 hits=11 rpm~5024 conc=195 inflight=194 429=0
+[context] 2500/400000 hits=14 rpm~4797 conc=243 inflight=242 429=0
+[context] 3000/400000 hits=14 rpm~3000 conc=300 inflight=0 429=0
+[context] 3500/400000 hits=16 rpm~3135 conc=300 inflight=278 429=0
+[context] 4000/400000 hits=17 rpm~3158 conc=300 inflight=295 429=0
+[context] 4500/400000 hits=18 rpm~3183 conc=300 inflight=279 429=0
+[context] 5000/400000 hits=20 rpm~3217 conc=300 inflight=0 429=0
+[context] 5500/400000 hits=22 rpm~3089 conc=300 inflight=299 429=0

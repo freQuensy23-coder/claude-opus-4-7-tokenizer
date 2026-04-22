@@ -1,0 +1,20 @@
+
+=== phase: evaluate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+name                   api  greedy   eff%
+python_hello            27      29  93.1%
+english_prose           35      47  74.5%
+json_blob               39      40  97.5%
+russian                 25      44  56.8%
+cjk                     22      29  75.9%
+japanese                18      24  75.0%
+code_block              30      30 100.0%
+markdown                29      29 100.0%
+long_english            41      50  82.0%
+typescript              64      67  95.5%
+
+average efficiency: 85.0%
+=== phase evaluate done in 4.4s ===
+
+
+total elapsed: 4.4s

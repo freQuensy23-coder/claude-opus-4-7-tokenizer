@@ -1,0 +1,9 @@
+[main] |only47| = 5,624
+[on 4.7] 5,624 cached, 0 pending (total 5,624)
+[on 4.6] 4,000 cached, 1,624 pending (total 5,624)
+[counter] model=claude-opus-4-6 baseline(§§)=9
+[on 4.6] 500/1,624 hits=500 rpm~7914 conc=80 inflight=79 429=0
+[on 4.6] 1,000/1,624 hits=1,000 rpm~10522 conc=100 inflight=99 429=0
+[on 4.6] 1,500/1,624 hits=1,500 rpm~12361 conc=125 inflight=124 429=0
+[on 4.6] finished 1,624 probes in 8.0s (12176 rpm); hits=1,624
+[main] wrote /Users/a.mametyev/PycharmProjects/claude-tokenizer/VALIDATE_NOVEL.md

@@ -1,0 +1,101 @@
+
+=== phase: tiktoken ===
+
+[tiktoken] cl100k_base: +99479 candidates
+[tiktoken] o200k_base: +198416 candidates
+[tiktoken] gpt2: +49905 candidates
+[tiktoken] r50k_base: +49905 candidates
+[tiktoken] p50k_base: +49929 candidates
+[tiktoken] total unique: 218864; new to check: 187308
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[tiktoken] resume: 0 already done, 187308 pending
+[tiktoken] 500/187308 hits=0 rpm~9221 conc=80 inflight=79 429=0
+[tiktoken] 1000/187308 hits=1 rpm~11537 conc=100 inflight=99 429=0
+[tiktoken] 1500/187308 hits=1 rpm~13123 conc=125 inflight=122 429=0
+[tiktoken] 2000/187308 hits=1 rpm~6978 conc=195 inflight=194 429=0
+[tiktoken] 2500/187308 hits=1 rpm~5789 conc=243 inflight=241 429=0
+[tiktoken] 3000/187308 hits=1 rpm~2993 conc=300 inflight=64 429=0
+[tiktoken] 3500/187308 hits=1 rpm~3101 conc=300 inflight=298 429=0
+[tiktoken] 4000/187308 hits=1 rpm~3147 conc=300 inflight=274 429=0
+[tiktoken] 4500/187308 hits=1 rpm~3173 conc=300 inflight=289 429=0
+[tiktoken] 5000/187308 hits=1 rpm~3195 conc=300 inflight=0 429=0
+[tiktoken] 5500/187308 hits=1 rpm~3129 conc=300 inflight=298 429=0
+[tiktoken] 6000/187308 hits=1 rpm~2998 conc=300 inflight=64 429=0
+[tiktoken] 6500/187308 hits=1 rpm~3043 conc=300 inflight=270 429=0
+[tiktoken] 7000/187308 hits=1 rpm~3074 conc=300 inflight=235 429=0
+[tiktoken] 7500/187308 hits=1 rpm~3095 conc=300 inflight=242 429=0
+[tiktoken] 8000/187308 hits=1 rpm~3117 conc=300 inflight=0 429=0
+[tiktoken] 8500/187308 hits=1 rpm~3070 conc=300 inflight=299 429=0
+[tiktoken] 9000/187308 hits=1 rpm~3004 conc=300 inflight=0 429=0
+[tiktoken] 9500/187308 hits=1 rpm~3032 conc=300 inflight=234 429=0
+[tiktoken] 10000/187308 hits=1 rpm~3061 conc=300 inflight=0 429=0
+[tiktoken] 10500/187308 hits=1 rpm~3016 conc=300 inflight=297 429=0
+[tiktoken] 11000/187308 hits=1 rpm~3037 conc=300 inflight=297 429=0
+[tiktoken] 11500/187308 hits=1 rpm~3041 conc=300 inflight=297 429=0
+[tiktoken] 12000/187308 hits=1 rpm~3002 conc=300 inflight=0 429=0
+[tiktoken] 12500/187308 hits=1 rpm~3034 conc=300 inflight=133 429=0
+[tiktoken] 13000/187308 hits=1 rpm~3052 conc=300 inflight=0 429=0
+[tiktoken] 13500/187308 hits=1 rpm~3018 conc=300 inflight=255 429=0
+[tiktoken] 14000/187308 hits=1 rpm~3032 conc=300 inflight=235 429=0
+[tiktoken] 14500/187308 hits=1 rpm~3053 conc=300 inflight=171 429=0
+[tiktoken] 15000/187308 hits=1 rpm~2999 conc=300 inflight=0 429=0
+[tiktoken] 15500/187308 hits=1 rpm~3014 conc=300 inflight=234 429=1
+[tiktoken] 16000/187308 hits=1 rpm~3000 conc=300 inflight=299 429=1
+[tiktoken] 16500/187308 hits=1 rpm~3001 conc=300 inflight=297 429=1
+[tiktoken] 17000/187308 hits=1 rpm~3016 conc=300 inflight=295 429=1
+[tiktoken] 17500/187308 hits=1 rpm~3036 conc=300 inflight=170 429=1
+[tiktoken] 18000/187308 hits=1 rpm~2995 conc=300 inflight=63 429=1
+[tiktoken] 18500/187308 hits=1 rpm~3016 conc=300 inflight=169 429=1
+[tiktoken] 19000/187308 hits=1 rpm~3002 conc=300 inflight=299 429=1
+[tiktoken] 19500/187308 hits=1 rpm~3002 conc=300 inflight=293 429=1
+[tiktoken] 20000/187308 hits=1 rpm~3020 conc=300 inflight=0 429=1
+[tiktoken] 20500/187308 hits=1 rpm~3003 conc=300 inflight=299 429=1
+[tiktoken] 21000/187308 hits=1 rpm~2996 conc=300 inflight=63 429=1
+[tiktoken] 21500/187308 hits=1 rpm~3019 conc=300 inflight=112 429=1
+[tiktoken] 22000/187308 hits=1 rpm~3003 conc=300 inflight=292 429=1
+[tiktoken] 22500/187308 hits=1 rpm~3015 conc=300 inflight=178 429=1
+[tiktoken] 23000/187308 hits=1 rpm~3025 conc=300 inflight=0 429=1
+[tiktoken] 23500/187308 hits=1 rpm~3009 conc=300 inflight=275 429=1
+[tiktoken] 24000/187308 hits=1 rpm~2994 conc=300 inflight=120 429=1
+[tiktoken] 24500/187308 hits=1 rpm~3001 conc=300 inflight=261 429=1
+[tiktoken] 25000/187308 hits=1 rpm~3016 conc=300 inflight=0 429=1
+[tiktoken] 25500/187308 hits=1 rpm~2997 conc=300 inflight=299 429=1
+[tiktoken] 26000/187308 hits=1 rpm~3019 conc=300 inflight=0 429=1
+[tiktoken] 26500/187308 hits=1 rpm~3011 conc=300 inflight=221 429=1
+[tiktoken] 27000/187308 hits=1 rpm~2995 conc=300 inflight=120 429=1
+[tiktoken] 27500/187308 hits=1 rpm~3002 conc=300 inflight=233 429=1
+[tiktoken] 28000/187308 hits=1 rpm~3008 conc=300 inflight=177 429=1
+[tiktoken] 28500/187308 hits=1 rpm~2997 conc=300 inflight=296 429=1
+[tiktoken] 29000/187308 hits=1 rpm~3011 conc=300 inflight=51 429=1
+[tiktoken] 29500/187308 hits=1 rpm~3010 conc=300 inflight=202 429=1
+[tiktoken] 30000/187308 hits=1 rpm~2997 conc=300 inflight=0 429=1
+[tiktoken] 30500/187308 hits=1 rpm~2995 conc=300 inflight=282 429=1
+[tiktoken] 31000/187308 hits=1 rpm~3002 conc=300 inflight=269 429=1
+[tiktoken] 31500/187308 hits=1 rpm~3010 conc=300 inflight=169 429=1
+[tiktoken] 32000/187308 hits=1 rpm~3016 conc=300 inflight=0 429=1
+[tiktoken] 32500/187308 hits=1 rpm~2999 conc=300 inflight=280 429=1
+[tiktoken] 33000/187308 hits=1 rpm~2997 conc=300 inflight=0 429=1
+[tiktoken] 33500/187308 hits=1 rpm~2998 conc=300 inflight=253 429=1
+[tiktoken] 34000/187308 hits=1 rpm~3004 conc=300 inflight=220 429=1
+[tiktoken] 34500/187308 hits=1 rpm~3014 conc=300 inflight=134 429=1
+[tiktoken] 35000/187308 hits=1 rpm~3005 conc=300 inflight=0 429=1
+[tiktoken] 35500/187308 hits=1 rpm~3006 conc=300 inflight=199 429=1
+[tiktoken] 36000/187308 hits=1 rpm~2998 conc=300 inflight=0 429=1
+[tiktoken] 36500/187308 hits=1 rpm~3000 conc=300 inflight=228 429=1
+[tiktoken] 37000/187308 hits=1 rpm~3003 conc=300 inflight=220 429=1
+[tiktoken] 37500/187308 hits=1 rpm~3003 conc=300 inflight=184 429=1
+[tiktoken] 38000/187308 hits=1 rpm~2999 conc=300 inflight=299 429=1
+[tiktoken] 38500/187308 hits=1 rpm~3005 conc=300 inflight=199 429=1
+[tiktoken] 39000/187308 hits=1 rpm~2998 conc=300 inflight=0 429=1
+[tiktoken] 39500/187308 hits=1 rpm~2998 conc=300 inflight=228 429=1
+[tiktoken] 40000/187308 hits=1 rpm~3004 conc=300 inflight=0 429=1
+[tiktoken] 40500/187308 hits=1 rpm~2995 conc=300 inflight=299 429=1
+[tiktoken] 41000/187308 hits=1 rpm~2996 conc=300 inflight=298 429=1
+[tiktoken] 41500/187308 hits=1 rpm~3005 conc=300 inflight=199 429=1
+[tiktoken] 42000/187308 hits=1 rpm~2998 conc=300 inflight=0 429=1
+[tiktoken] 42500/187308 hits=1 rpm~3000 conc=300 inflight=228 429=1
+[tiktoken] 43000/187308 hits=1 rpm~3007 conc=300 inflight=0 429=1
+[tiktoken] 43500/187308 hits=1 rpm~2995 conc=300 inflight=299 429=1
+[tiktoken] 44000/187308 hits=1 rpm~3001 conc=300 inflight=211 429=1
+[tiktoken] 44500/187308 hits=1 rpm~3008 conc=300 inflight=141 429=1
+[tiktoken] 45000/187308 hits=1 rpm~2996 conc=300 inflight=0 429=1

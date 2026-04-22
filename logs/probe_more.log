@@ -1,0 +1,49 @@
+already probed: 471921, known vocab: 12812
+[probe_more] loading Qwen/Qwen2.5-0.5B
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+[probe_more] loading bigscience/bloom
+[probe_more] loading facebook/mbart-large-50
+[probe_more] loading google/mt5-base
+[probe_more] loading xlm-roberta-base
+[probe_more] loading baichuan-inc/Baichuan2-7B-Base
+[probe_more] loading deepseek-ai/DeepSeek-V2-Lite
+`rope_parameters`'s factor field must be a float >= 1, got 40
+`rope_parameters`'s beta_fast field must be a float, got 32
+`rope_parameters`'s beta_slow field must be a float, got 1
+[probe_more] loading Salesforce/codet5p-220m
+[hf] skip Salesforce/codet5p-220m: Input must be a List[Union[str, AddedToken]]
+[probe_more] loading EleutherAI/gpt-neox-20b
+[probe_more] loading microsoft/deberta-v3-base
+[probe_more] loading sentence-transformers/LaBSE
+[probe_more] total HF items: 2052402
+[probe_more] real-word candidates: 58890
+[probe_more] new to probe: 926968
+[probe_more] capped to 800000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[probe_more] resume: 0 already done, 800000 pending
+[probe_more] 1000/800000 hits=3 rpm~10037 conc=100 inflight=98 429=0
+[probe_more] 2000/800000 hits=4 rpm~6033 conc=195 inflight=194 429=0
+[probe_more] 3000/800000 hits=4 rpm~3003 conc=300 inflight=0 429=0
+[probe_more] 4000/800000 hits=5 rpm~3135 conc=300 inflight=0 429=0
+[probe_more] 5000/800000 hits=5 rpm~3022 conc=300 inflight=298 429=0
+[probe_more] 6000/800000 hits=5 rpm~3009 conc=300 inflight=0 429=0
+[probe_more] 7000/800000 hits=6 rpm~3000 conc=300 inflight=299 429=0
+[probe_more] 8000/800000 hits=9 rpm~3066 conc=300 inflight=0 429=0
+[probe_more] 9000/800000 hits=13 rpm~3005 conc=300 inflight=0 429=0
+[probe_more] 10000/800000 hits=13 rpm~3057 conc=300 inflight=0 429=0
+[probe_more] 11000/800000 hits=13 rpm~3021 conc=300 inflight=223 429=0
+[probe_more] 12000/800000 hits=16 rpm~3005 conc=300 inflight=0 429=0
+[probe_more] 13000/800000 hits=16 rpm~3031 conc=300 inflight=52 429=0
+[probe_more] 14000/800000 hits=18 rpm~3010 conc=300 inflight=234 429=0
+[probe_more] 15000/800000 hits=19 rpm~3004 conc=300 inflight=0 429=0
+[probe_more] 16000/800000 hits=22 rpm~3014 conc=300 inflight=0 429=0
+[probe_more] 17000/800000 hits=23 rpm~3002 conc=300 inflight=272 429=0
+[probe_more] 18000/800000 hits=24 rpm~3003 conc=300 inflight=0 429=0
+[probe_more] 19000/800000 hits=27 rpm~3013 conc=300 inflight=0 429=0
+[probe_more] 20000/800000 hits=27 rpm~3001 conc=300 inflight=0 429=0
+[probe_more] 21000/800000 hits=30 rpm~2999 conc=300 inflight=6 429=0
+[probe_more] 22000/800000 hits=31 rpm~3020 conc=300 inflight=0 429=0
+[probe_more] 23000/800000 hits=33 rpm~3014 conc=300 inflight=0 429=0
+[probe_more] 24000/800000 hits=34 rpm~3000 conc=300 inflight=0 429=0
+[probe_more] 25000/800000 hits=37 rpm~3016 conc=300 inflight=0 429=0
+[probe_more] 26000/800000 hits=39 rpm~3011 conc=300 inflight=0 429=0

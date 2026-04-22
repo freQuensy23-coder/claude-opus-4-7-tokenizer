@@ -1,0 +1,51 @@
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 5.0s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.8s ===
+
+
+=== phase: context ===
+[context] confirmed-4.7 seed: 8308; generated: 22932; new to probe: 17126
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[context] resume: 11852 already done, 17126 pending
+[context] 500/17126 hits=42 rpm~9359 conc=80 inflight=79 429=0
+[context] 1000/17126 hits=90 rpm~11459 conc=80 inflight=79 429=1
+[context] 1500/17126 hits=128 rpm~12760 conc=100 inflight=99 429=1
+[context] 2000/17126 hits=169 rpm~8779 conc=156 inflight=152 429=1
+[context] 2500/17126 hits=215 rpm~6101 conc=195 inflight=194 429=1
+[context] 3000/17126 hits=252 rpm~2964 conc=243 inflight=70 429=1
+[context] 3500/17126 hits=287 rpm~3104 conc=300 inflight=278 429=1
+[context] 4000/17126 hits=325 rpm~3141 conc=300 inflight=234 429=1
+[context] 4500/17126 hits=370 rpm~3125 conc=300 inflight=295 429=1
+[context] 5000/17126 hits=407 rpm~3198 conc=300 inflight=0 429=1
+[context] 5500/17126 hits=459 rpm~3078 conc=300 inflight=299 429=1
+[context] 6000/17126 hits=497 rpm~2990 conc=300 inflight=63 429=1
+[context] 6500/17126 hits=539 rpm~3040 conc=300 inflight=290 429=1
+[context] 7000/17126 hits=587 rpm~3060 conc=300 inflight=248 429=1
+[context] 7500/17126 hits=621 rpm~3084 conc=300 inflight=218 429=1
+[context] 8000/17126 hits=668 rpm~3045 conc=300 inflight=298 429=1
+[context] 8500/17126 hits=712 rpm~3030 conc=300 inflight=299 429=1
+[context] 9000/17126 hits=755 rpm~2992 conc=300 inflight=64 429=1
+[context] 9500/17126 hits=796 rpm~3031 conc=300 inflight=252 429=1
+[context] 10000/17126 hits=824 rpm~3055 conc=300 inflight=0 429=1
+[context] 10500/17126 hits=866 rpm~3014 conc=300 inflight=299 429=1
+[context] 11000/17126 hits=911 rpm~3026 conc=300 inflight=299 429=1

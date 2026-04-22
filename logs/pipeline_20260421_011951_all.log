@@ -1,0 +1,313 @@
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 4.7s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.7s ===
+
+
+=== phase: handcrafted ===
+[handcrafted] total unique: 56387; new to check: 0
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[handcrafted] resume: 52081 already done, 0 pending
+=== phase handcrafted done in 0.8s ===
+
+
+=== phase: dict ===
+[dict] unique: 780477 (shuffled); new: 60000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[dict] resume: 17224 already done, 60000 pending
+[dict] 500/60000 hits=0 rpm~9097 conc=80 inflight=79 429=0
+[dict] 1000/60000 hits=0 rpm~8350 conc=100 inflight=99 429=0
+[dict] 1500/60000 hits=0 rpm~5574 conc=125 inflight=124 429=0
+[dict] 2000/60000 hits=0 rpm~5146 conc=195 inflight=146 429=0
+[dict] 2500/60000 hits=0 rpm~4868 conc=243 inflight=240 429=0
+[dict] 3000/60000 hits=0 rpm~2995 conc=300 inflight=64 429=0
+[dict] 3500/60000 hits=0 rpm~3057 conc=300 inflight=260 429=0
+[dict] 4000/60000 hits=0 rpm~3085 conc=300 inflight=248 429=0
+[dict] 4500/60000 hits=0 rpm~3102 conc=300 inflight=248 429=0
+[dict] 5000/60000 hits=0 rpm~3139 conc=300 inflight=0 429=0
+[dict] 5500/60000 hits=0 rpm~3031 conc=300 inflight=298 429=0
+[dict] 6000/60000 hits=0 rpm~3004 conc=300 inflight=0 429=0
+[dict] 6500/60000 hits=0 rpm~3057 conc=300 inflight=103 429=0
+[dict] 7000/60000 hits=0 rpm~3006 conc=300 inflight=299 429=0
+[dict] 7500/60000 hits=0 rpm~3012 conc=300 inflight=299 429=0
+[dict] 8000/60000 hits=0 rpm~3047 conc=300 inflight=217 429=0
+[dict] 8500/60000 hits=0 rpm~3076 conc=300 inflight=195 429=0
+[dict] 9000/60000 hits=0 rpm~2997 conc=300 inflight=22 429=0
+[dict] 9500/60000 hits=0 rpm~3021 conc=300 inflight=260 429=0
+[dict] 10000/60000 hits=0 rpm~3048 conc=300 inflight=0 429=0
+[dict] 10500/60000 hits=0 rpm~3007 conc=300 inflight=299 429=0
+[dict] 11000/60000 hits=0 rpm~3025 conc=300 inflight=271 429=0
+[dict] 11500/60000 hits=0 rpm~3054 conc=300 inflight=195 429=0
+[dict] 12000/60000 hits=0 rpm~2998 conc=300 inflight=22 429=0
+[dict] 12500/60000 hits=0 rpm~3022 conc=300 inflight=103 429=0
+[dict] 13000/60000 hits=0 rpm~3000 conc=300 inflight=298 429=0
+[dict] 13500/60000 hits=0 rpm~3000 conc=300 inflight=299 429=0
+[dict] 14000/60000 hits=0 rpm~3020 conc=300 inflight=271 429=0
+[dict] 14500/60000 hits=0 rpm~3040 conc=300 inflight=195 429=0
+[dict] 15000/60000 hits=0 rpm~2998 conc=300 inflight=0 429=0
+[dict] 15500/60000 hits=0 rpm~3014 conc=300 inflight=103 429=0
+[dict] 16000/60000 hits=0 rpm~2995 conc=300 inflight=299 429=0
+[dict] 16500/60000 hits=0 rpm~3000 conc=300 inflight=298 429=0
+[dict] 17000/60000 hits=0 rpm~3016 conc=300 inflight=261 429=0
+[dict] 17500/60000 hits=0 rpm~3032 conc=300 inflight=161 429=0
+[dict] 18000/60000 hits=0 rpm~3002 conc=300 inflight=0 429=0
+[dict] 18500/60000 hits=0 rpm~3015 conc=300 inflight=103 429=0
+[dict] 19000/60000 hits=0 rpm~2993 conc=300 inflight=299 429=0
+[dict] 19500/60000 hits=0 rpm~3004 conc=300 inflight=228 429=0
+[dict] 20000/60000 hits=0 rpm~3015 conc=300 inflight=0 429=0
+[dict] 20500/60000 hits=0 rpm~2997 conc=300 inflight=299 429=0
+[dict] 21000/60000 hits=0 rpm~3001 conc=300 inflight=0 429=0
+[dict] 21500/60000 hits=0 rpm~3013 conc=300 inflight=103 429=0
+[dict] 22000/60000 hits=0 rpm~2995 conc=300 inflight=292 429=0
+[dict] 22500/60000 hits=0 rpm~3007 conc=300 inflight=192 429=0
+[dict] 23000/60000 hits=0 rpm~3019 conc=300 inflight=0 429=0
+[dict] 23500/60000 hits=0 rpm~3001 conc=300 inflight=289 429=0
+[dict] 24000/60000 hits=0 rpm~3000 conc=300 inflight=0 429=0
+[dict] 24500/60000 hits=0 rpm~2997 conc=300 inflight=207 429=0
+[dict] 25000/60000 hits=0 rpm~3013 conc=300 inflight=0 429=0
+[dict] 25500/60000 hits=0 rpm~2994 conc=300 inflight=285 429=0
+[dict] 26000/60000 hits=0 rpm~2992 conc=300 inflight=298 429=0
+[dict] 26500/60000 hits=0 rpm~2983 conc=300 inflight=299 429=0
+[dict] 27000/60000 hits=0 rpm~2995 conc=300 inflight=65 429=0
+[dict] 27500/60000 hits=0 rpm~3001 conc=300 inflight=125 429=0
+[dict] 28000/60000 hits=0 rpm~2991 conc=300 inflight=298 429=0
+[dict] 28500/60000 hits=0 rpm~2995 conc=300 inflight=277 429=0
+[dict] 29000/60000 hits=0 rpm~3003 conc=300 inflight=77 429=0
+[dict] 29500/60000 hits=0 rpm~2991 conc=300 inflight=232 429=0
+[dict] 30000/60000 hits=0 rpm~3001 conc=300 inflight=0 429=0
+[dict] 30500/60000 hits=0 rpm~2989 conc=300 inflight=299 429=0
+[dict] 31000/60000 hits=0 rpm~2996 conc=300 inflight=284 429=0
+[dict] 31500/60000 hits=0 rpm~3007 conc=300 inflight=136 429=0
+[dict] 32000/60000 hits=0 rpm~3008 conc=300 inflight=0 429=0
+[dict] 32500/60000 hits=0 rpm~3002 conc=300 inflight=179 429=0
+[dict] 33000/60000 hits=0 rpm~3000 conc=300 inflight=0 429=0
+[dict] 33500/60000 hits=0 rpm~2997 conc=300 inflight=224 429=0
+[dict] 34000/60000 hits=0 rpm~3006 conc=300 inflight=0 429=0
+[dict] 34500/60000 hits=0 rpm~2992 conc=300 inflight=299 429=0
+[dict] 35000/60000 hits=0 rpm~3003 conc=300 inflight=0 429=0
+[dict] 35500/60000 hits=0 rpm~2987 conc=300 inflight=264 429=0
+[dict] 36000/60000 hits=0 rpm~3000 conc=300 inflight=0 429=0
+[dict] 36500/60000 hits=0 rpm~2999 conc=300 inflight=134 429=0
+[dict] 37000/60000 hits=0 rpm~2993 conc=300 inflight=290 429=0
+[dict] 37500/60000 hits=0 rpm~2996 conc=300 inflight=209 429=0
+[dict] 38000/60000 hits=0 rpm~2996 conc=300 inflight=260 429=0
+[dict] 38500/60000 hits=0 rpm~2992 conc=300 inflight=235 429=0
+[dict] 39000/60000 hits=0 rpm~3000 conc=300 inflight=0 429=0
+[dict] 39500/60000 hits=0 rpm~2988 conc=300 inflight=297 429=0
+[dict] 40000/60000 hits=0 rpm~2995 conc=300 inflight=0 429=0
+[dict] 40500/60000 hits=0 rpm~2987 conc=300 inflight=298 429=0
+[dict] 41000/60000 hits=0 rpm~2992 conc=300 inflight=299 429=0
+[dict] 41500/60000 hits=0 rpm~2999 conc=300 inflight=180 429=0
+[dict] 42000/60000 hits=0 rpm~3000 conc=300 inflight=0 429=0
+[dict] 42500/60000 hits=0 rpm~2995 conc=300 inflight=183 429=0
+[dict] 43000/60000 hits=0 rpm~3002 conc=300 inflight=0 429=0
+[dict] 43500/60000 hits=0 rpm~2992 conc=300 inflight=249 429=0
+[dict] 44000/60000 hits=0 rpm~2994 conc=300 inflight=261 429=0
+[dict] 44500/60000 hits=0 rpm~2988 conc=300 inflight=264 429=0
+[dict] 45000/60000 hits=0 rpm~2994 conc=300 inflight=0 429=0
+[dict] 45500/60000 hits=0 rpm~2984 conc=300 inflight=299 429=0
+[dict] 46000/60000 hits=0 rpm~2989 conc=300 inflight=257 429=0
+[dict] 46500/60000 hits=0 rpm~2993 conc=300 inflight=223 429=0
+[dict] 47000/60000 hits=0 rpm~2999 conc=300 inflight=20 429=0
+[dict] 47500/60000 hits=0 rpm~2992 conc=300 inflight=234 429=0
+[dict] 48000/60000 hits=0 rpm~2998 conc=300 inflight=0 429=0
+[dict] 48500/60000 hits=0 rpm~2989 conc=300 inflight=261 429=0
+[dict] 49000/60000 hits=0 rpm~2996 conc=300 inflight=0 429=0
+[dict] 49500/60000 hits=0 rpm~2986 conc=300 inflight=299 429=0
+[dict] 50000/60000 hits=0 rpm~2992 conc=300 inflight=0 429=0
+[dict] 50500/60000 hits=0 rpm~2995 conc=300 inflight=175 429=0
+[dict] 51000/60000 hits=0 rpm~2998 conc=300 inflight=0 429=0
+[dict] 51500/60000 hits=0 rpm~2990 conc=300 inflight=256 429=0
+[dict] 52000/60000 hits=0 rpm~2997 conc=300 inflight=0 429=0
+[dict] 52500/60000 hits=0 rpm~2987 conc=300 inflight=281 429=0
+[dict] 53000/60000 hits=0 rpm~2989 conc=300 inflight=299 429=0
+[dict] 53500/60000 hits=0 rpm~2984 conc=300 inflight=298 429=0
+[dict] 54000/60000 hits=0 rpm~2987 conc=300 inflight=299 429=0
+[dict] 54500/60000 hits=0 rpm~2993 conc=300 inflight=196 429=0
+[dict] 55000/60000 hits=0 rpm~2998 conc=300 inflight=0 429=0
+[dict] 55500/60000 hits=0 rpm~2988 conc=300 inflight=281 429=0
+[dict] 56000/60000 hits=0 rpm~2994 conc=300 inflight=0 429=0
+[dict] 56500/60000 hits=0 rpm~2983 conc=300 inflight=295 429=0
+[dict] 57000/60000 hits=0 rpm~2988 conc=300 inflight=281 429=0
+[dict] 57500/60000 hits=0 rpm~2994 conc=300 inflight=169 429=0
+[dict] 58000/60000 hits=0 rpm~2999 conc=300 inflight=0 429=0
+[dict] 58500/60000 hits=0 rpm~2992 conc=300 inflight=187 429=0
+[dict] 59000/60000 hits=0 rpm~2998 conc=300 inflight=0 429=0
+[dict] 59500/60000 hits=0 rpm~2990 conc=300 inflight=201 429=0
+[dict] 60000/60000 hits=0 rpm~2994 conc=300 inflight=0 429=0
+[dict] done. hits=0 checked=77224
+=== phase dict done in 1203.6s ===
+
+
+=== phase: hf ===
+[hf] loading Qwen/Qwen2.5-0.5B ...
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+[hf] Qwen/Qwen2.5-0.5B: 150000 candidates
+[hf] loading bigscience/bloom ...
+[hf] bigscience/bloom: 150000 candidates
+[hf] loading facebook/mbart-large-50 ...
+[hf] facebook/mbart-large-50: 150000 candidates
+[hf] loading google/mt5-base ...
+[hf] google/mt5-base: 150000 candidates
+[hf] loading xlm-roberta-base ...
+[hf] xlm-roberta-base: 150000 candidates
+[hf] loading baichuan-inc/Baichuan2-7B-Base ...
+[hf] baichuan-inc/Baichuan2-7B-Base: 125460 candidates
+[hf] loading deepseek-ai/DeepSeek-V2-Lite ...
+`rope_parameters`'s factor field must be a float >= 1, got 40
+`rope_parameters`'s beta_fast field must be a float, got 32
+`rope_parameters`'s beta_slow field must be a float, got 1
+[hf] deepseek-ai/DeepSeek-V2-Lite: 99442 candidates
+[hf] loading Salesforce/codet5p-220m ...
+[hf] skip Salesforce/codet5p-220m: Input must be a List[Union[str, AddedToken]]
+[hf] Salesforce/codet5p-220m: 0 candidates
+[hf] loading EleutherAI/gpt-neox-20b ...
+[hf] EleutherAI/gpt-neox-20b: 49766 candidates
+[hf] loading microsoft/deberta-v3-base ...
+[hf] microsoft/deberta-v3-base: 108334 candidates
+[hf] loading sentence-transformers/LaBSE ...
+[hf] sentence-transformers/LaBSE: 150000 candidates
+[hf] capping at 400000 (was 659372)
+[hf] ranked union: 723732; new to check: 400000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[hf] resume: 0 done, 400000 pending
+[hf] 500/400000 hits=0 (0ppm) rpm~8835 conc=80 inflight=78 429=0
+[hf] 1000/400000 hits=0 (0ppm) rpm~11061 conc=100 inflight=99 429=0
+[hf] 1500/400000 hits=0 (0ppm) rpm~6370 conc=125 inflight=123 429=0
+[hf] 2000/400000 hits=0 (0ppm) rpm~5074 conc=195 inflight=194 429=0
+[hf] 2500/400000 hits=0 (0ppm) rpm~4821 conc=243 inflight=236 429=0
+[hf] 3000/400000 hits=0 (0ppm) rpm~3000 conc=300 inflight=0 429=0
+[hf] 3500/400000 hits=0 (0ppm) rpm~3100 conc=300 inflight=296 429=0
+[hf] 4000/400000 hits=0 (0ppm) rpm~3142 conc=300 inflight=0 429=0
+[hf] 4500/400000 hits=0 (0ppm) rpm~3089 conc=300 inflight=297 429=0
+[hf] 5000/400000 hits=0 (0ppm) rpm~3089 conc=300 inflight=299 429=0
+[hf] 5500/400000 hits=0 (0ppm) rpm~3108 conc=300 inflight=299 429=0
+[hf] 6000/400000 hits=0 (0ppm) rpm~3008 conc=300 inflight=0 429=0
+[hf] 6500/400000 hits=0 (0ppm) rpm~3050 conc=300 inflight=279 429=0
+[hf] 7000/400000 hits=0 (0ppm) rpm~3090 conc=300 inflight=0 429=0
+[hf] 7500/400000 hits=1 (133ppm) rpm~3028 conc=300 inflight=299 429=0
+[hf] 8000/400000 hits=1 (125ppm) rpm~3075 conc=300 inflight=0 429=0
+[hf] 8500/400000 hits=2 (235ppm) rpm~3066 conc=300 inflight=299 429=0
+[hf] 9000/400000 hits=2 (222ppm) rpm~3006 conc=300 inflight=0 429=0
+[hf] 9500/400000 hits=3 (315ppm) rpm~3038 conc=300 inflight=167 429=0
+[hf] 10000/400000 hits=4 (400ppm) rpm~3001 conc=300 inflight=299 429=0
+[hf] 10500/400000 hits=4 (380ppm) rpm~3006 conc=300 inflight=299 429=0
+[hf] 11000/400000 hits=4 (363ppm) rpm~3037 conc=300 inflight=299 429=0
+[hf] 11500/400000 hits=6 (521ppm) rpm~3066 conc=300 inflight=246 429=0
+[hf] 12000/400000 hits=8 (666ppm) rpm~2999 conc=300 inflight=0 429=0
+[hf] 12500/400000 hits=9 (720ppm) rpm~3022 conc=300 inflight=167 429=0
+[hf] 13000/400000 hits=11 (846ppm) rpm~3033 conc=300 inflight=0 429=0
+[hf] 13500/400000 hits=12 (888ppm) rpm~3000 conc=300 inflight=299 429=0
+[hf] 14000/400000 hits=14 (1000ppm) rpm~3026 conc=300 inflight=297 429=0
+[hf] 14500/400000 hits=15 (1034ppm) rpm~3050 conc=300 inflight=246 429=0
+[hf] 15000/400000 hits=15 (1000ppm) rpm~2999 conc=300 inflight=0 429=0
+[hf] 15500/400000 hits=15 (967ppm) rpm~3028 conc=300 inflight=96 429=0
+[hf] 16000/400000 hits=16 (1000ppm) rpm~3022 conc=300 inflight=0 429=0
+[hf] 16500/400000 hits=16 (969ppm) rpm~3019 conc=300 inflight=194 429=0
+[hf] 17000/400000 hits=16 (941ppm) rpm~3035 conc=300 inflight=0 429=0
+[hf] 17500/400000 hits=16 (914ppm) rpm~3009 conc=300 inflight=299 429=0
+[hf] 18000/400000 hits=16 (888ppm) rpm~3002 conc=300 inflight=0 429=0
+[hf] 18500/400000 hits=17 (918ppm) rpm~3012 conc=300 inflight=167 429=0
+[hf] 19000/400000 hits=17 (894ppm) rpm~3029 conc=300 inflight=0 429=0
+[hf] 19500/400000 hits=17 (871ppm) rpm~3011 conc=300 inflight=194 429=0
+[hf] 20000/400000 hits=17 (850ppm) rpm~3026 conc=300 inflight=0 429=0
+[hf] 20500/400000 hits=19 (926ppm) rpm~3005 conc=300 inflight=299 429=0
+[hf] 21000/400000 hits=21 (1000ppm) rpm~3002 conc=300 inflight=0 429=0
+[hf] 21500/400000 hits=21 (976ppm) rpm~2996 conc=300 inflight=299 429=0
+[hf] 22000/400000 hits=21 (954ppm) rpm~3007 conc=300 inflight=171 429=0
+[hf] 22500/400000 hits=21 (933ppm) rpm~3023 conc=300 inflight=91 429=0
+[hf] 23000/400000 hits=21 (913ppm) rpm~3013 conc=300 inflight=190 429=0
+[hf] 23500/400000 hits=22 (936ppm) rpm~3030 conc=300 inflight=87 429=0
+[hf] 24000/400000 hits=22 (916ppm) rpm~3002 conc=300 inflight=0 429=0
+[hf] 24500/400000 hits=23 (938ppm) rpm~3010 conc=300 inflight=167 429=0
+[hf] 25000/400000 hits=25 (1000ppm) rpm~3019 conc=300 inflight=0 429=0
+[hf] 25500/400000 hits=26 (1019ppm) rpm~3008 conc=300 inflight=194 429=0
+[hf] 26000/400000 hits=29 (1115ppm) rpm~3019 conc=300 inflight=0 429=0
+[hf] 26500/400000 hits=30 (1132ppm) rpm~3003 conc=300 inflight=294 429=0
+[hf] 27000/400000 hits=31 (1148ppm) rpm~3001 conc=300 inflight=0 429=0
+[hf] 27500/400000 hits=32 (1163ppm) rpm~2999 conc=300 inflight=276 429=1
+[hf] 28000/400000 hits=33 (1178ppm) rpm~3009 conc=300 inflight=0 429=1
+[hf] 28500/400000 hits=36 (1263ppm) rpm~2994 conc=300 inflight=299 429=1
+[hf] 29000/400000 hits=37 (1275ppm) rpm~3005 conc=300 inflight=265 429=1
+[hf] 29500/400000 hits=37 (1254ppm) rpm~3016 conc=300 inflight=190 429=1
+[hf] 30000/400000 hits=38 (1266ppm) rpm~2996 conc=300 inflight=63 429=1
+[hf] 30500/400000 hits=39 (1278ppm) rpm~3012 conc=300 inflight=94 429=1
+[hf] 31000/400000 hits=41 (1322ppm) rpm~2999 conc=300 inflight=297 429=1
+[hf] 31500/400000 hits=44 (1396ppm) rpm~3008 conc=300 inflight=180 429=1
+[hf] 32000/400000 hits=47 (1468ppm) rpm~3013 conc=300 inflight=0 429=1
+[hf] 32500/400000 hits=48 (1476ppm) rpm~3003 conc=300 inflight=268 429=1
+[hf] 33000/400000 hits=49 (1484ppm) rpm~2992 conc=300 inflight=226 429=1
+[hf] 33500/400000 hits=49 (1462ppm) rpm~2996 conc=300 inflight=299 429=1
+[hf] 34000/400000 hits=49 (1441ppm) rpm~3005 conc=300 inflight=65 429=1
+[hf] 34500/400000 hits=52 (1507ppm) rpm~2998 conc=300 inflight=224 429=1
+[hf] 35000/400000 hits=52 (1485ppm) rpm~3009 conc=300 inflight=84 429=1
+[hf] 35500/400000 hits=52 (1464ppm) rpm~3002 conc=300 inflight=268 429=1
+[hf] 36000/400000 hits=54 (1500ppm) rpm~2997 conc=300 inflight=0 429=1
+[hf] 36500/400000 hits=59 (1616ppm) rpm~2997 conc=300 inflight=295 429=1
+[hf] 37000/400000 hits=61 (1648ppm) rpm~2998 conc=300 inflight=298 429=1
+[hf] 37500/400000 hits=62 (1653ppm) rpm~2995 conc=300 inflight=285 429=1
+[hf] 38000/400000 hits=63 (1657ppm) rpm~3003 conc=300 inflight=263 429=1
+[hf] 38500/400000 hits=64 (1662ppm) rpm~3011 conc=300 inflight=148 429=1
+[hf] 39000/400000 hits=64 (1641ppm) rpm~2998 conc=300 inflight=0 429=1
+[hf] 39500/400000 hits=66 (1670ppm) rpm~3005 conc=300 inflight=141 429=1
+[hf] 40000/400000 hits=68 (1700ppm) rpm~3004 conc=300 inflight=0 429=1
+[hf] 40500/400000 hits=68 (1679ppm) rpm~3003 conc=300 inflight=182 429=1
+[hf] 41000/400000 hits=70 (1707ppm) rpm~2999 conc=300 inflight=297 429=1
+[hf] 41500/400000 hits=71 (1710ppm) rpm~3001 conc=300 inflight=285 429=1
+[hf] 42000/400000 hits=71 (1690ppm) rpm~2996 conc=300 inflight=63 429=1
+[hf] 42500/400000 hits=72 (1694ppm) rpm~2998 conc=300 inflight=237 429=1
+[hf] 43000/400000 hits=75 (1744ppm) rpm~3002 conc=300 inflight=29 429=1
+[hf] 43500/400000 hits=75 (1724ppm) rpm~2995 conc=300 inflight=285 429=1
+[hf] 44000/400000 hits=75 (1704ppm) rpm~3003 conc=300 inflight=0 429=1
+[hf] 44500/400000 hits=75 (1685ppm) rpm~2994 conc=300 inflight=299 429=1
+[hf] 45000/400000 hits=75 (1666ppm) rpm~2998 conc=300 inflight=8 429=1
+[hf] 45500/400000 hits=76 (1670ppm) rpm~3002 conc=300 inflight=152 429=1
+[hf] 46000/400000 hits=76 (1652ppm) rpm~2996 conc=300 inflight=298 429=1
+[hf] 46500/400000 hits=78 (1677ppm) rpm~2998 conc=300 inflight=225 429=1
+[hf] 47000/400000 hits=80 (1702ppm) rpm~3005 conc=300 inflight=0 429=1
+[hf] 47500/400000 hits=81 (1705ppm) rpm~2996 conc=300 inflight=286 429=1
+[hf] 48000/400000 hits=81 (1687ppm) rpm~2997 conc=300 inflight=0 429=1
+[hf] 48500/400000 hits=82 (1690ppm) rpm~2993 conc=300 inflight=299 429=1
+[hf] 49000/400000 hits=83 (1693ppm) rpm~3000 conc=300 inflight=77 429=1
+[hf] 49500/400000 hits=83 (1676ppm) rpm~2992 conc=300 inflight=299 429=1
+[hf] 50000/400000 hits=83 (1660ppm) rpm~3000 conc=300 inflight=108 429=1
+[hf] 50500/400000 hits=85 (1683ppm) rpm~2996 conc=300 inflight=287 429=1
+[hf] 51000/400000 hits=88 (1725ppm) rpm~2998 conc=300 inflight=0 429=1
+[hf] 51500/400000 hits=89 (1728ppm) rpm~2992 conc=300 inflight=299 429=1
+[hf] 52000/400000 hits=91 (1750ppm) rpm~2999 conc=300 inflight=0 429=1
+[hf] 52500/400000 hits=91 (1733ppm) rpm~2992 conc=300 inflight=299 429=1
+[hf] 53000/400000 hits=91 (1716ppm) rpm~2997 conc=300 inflight=249 429=1
+[hf] 53500/400000 hits=94 (1757ppm) rpm~3002 conc=300 inflight=186 429=1
+[hf] 54000/400000 hits=97 (1796ppm) rpm~2998 conc=300 inflight=0 429=1
+[hf] 54500/400000 hits=97 (1779ppm) rpm~2999 conc=300 inflight=174 429=1
+[hf] 55000/400000 hits=97 (1763ppm) rpm~3002 conc=300 inflight=0 429=1
+[hf] 55500/400000 hits=99 (1783ppm) rpm~2998 conc=300 inflight=197 429=1
+[hf] 56000/400000 hits=100 (1785ppm) rpm~3003 conc=300 inflight=0 429=1
+[hf] 56500/400000 hits=101 (1787ppm) rpm~2996 conc=300 inflight=272 429=1
+[hf] 57000/400000 hits=101 (1771ppm) rpm~2998 conc=300 inflight=0 429=1
+[hf] 57500/400000 hits=102 (1773ppm) rpm~2994 conc=300 inflight=256 429=1
+[hf] 58000/400000 hits=103 (1775ppm) rpm~3000 conc=300 inflight=0 429=1
+[hf] 58500/400000 hits=107 (1829ppm) rpm~2993 conc=300 inflight=287 429=1
+[hf] 59000/400000 hits=108 (1830ppm) rpm~2998 conc=300 inflight=158 429=1
+[hf] 59500/400000 hits=108 (1815ppm) rpm~3005 conc=300 inflight=69 429=1
+[hf] 60000/400000 hits=108 (1800ppm) rpm~2998 conc=300 inflight=0 429=1
+[hf] 60500/400000 hits=111 (1834ppm) rpm~2993 conc=300 inflight=298 429=1

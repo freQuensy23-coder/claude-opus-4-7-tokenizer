@@ -1,0 +1,61 @@
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 4.8s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.8s ===
+
+
+=== phase: handcrafted ===
+[handcrafted] total unique: 56387; new to check: 0
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[handcrafted] resume: 52081 already done, 0 pending
+=== phase handcrafted done in 0.8s ===
+
+
+=== phase: kgram ===
+[kgram] corpus size: 314446 bytes
+[kgram] unique word-anchored k-grams (freq>=2): 567796
+[kgram] new to probe (capped at 400000): 400000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[kgram] resume: 19752 already done, 400000 pending
+[kgram] 500/400000 hits=1 rpm~9123 conc=80 inflight=79 429=0
+[kgram] 1000/400000 hits=13 rpm~8224 conc=100 inflight=98 429=0
+[kgram] 1500/400000 hits=18 rpm~5554 conc=125 inflight=123 429=0
+[kgram] 2000/400000 hits=22 rpm~5202 conc=195 inflight=137 429=0
+[kgram] 2500/400000 hits=24 rpm~4636 conc=243 inflight=241 429=0
+[kgram] 3000/400000 hits=25 rpm~2990 conc=300 inflight=64 429=0
+[kgram] 3500/400000 hits=38 rpm~3095 conc=300 inflight=276 429=0
+[kgram] 4000/400000 hits=53 rpm~3119 conc=300 inflight=279 429=0
+[kgram] 4500/400000 hits=63 rpm~3149 conc=300 inflight=235 429=0
+[kgram] 5000/400000 hits=78 rpm~3169 conc=300 inflight=0 429=0
+[kgram] 5500/400000 hits=83 rpm~3048 conc=300 inflight=299 429=0
+[kgram] 6000/400000 hits=93 rpm~3006 conc=300 inflight=0 429=0
+[kgram] 6500/400000 hits=95 rpm~3061 conc=300 inflight=142 429=0
+[kgram] 7000/400000 hits=96 rpm~3081 conc=300 inflight=123 429=0
+[kgram] 7500/400000 hits=101 rpm~3033 conc=300 inflight=299 429=0
+[kgram] 8000/400000 hits=104 rpm~3050 conc=300 inflight=295 429=0
+[kgram] 8500/400000 hits=105 rpm~3084 conc=300 inflight=204 429=0
+[kgram] 9000/400000 hits=106 rpm~2998 conc=300 inflight=0 429=0
+[kgram] 9500/400000 hits=106 rpm~3029 conc=300 inflight=267 429=0
+[kgram] 10000/400000 hits=109 rpm~3062 conc=300 inflight=0 429=0
+[kgram] 10500/400000 hits=115 rpm~3008 conc=300 inflight=297 429=0
+[kgram] 11000/400000 hits=119 rpm~3032 conc=300 inflight=291 429=0
+[kgram] 11500/400000 hits=119 rpm~3057 conc=300 inflight=206 429=0

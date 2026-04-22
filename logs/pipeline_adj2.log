@@ -1,0 +1,15 @@
+loaded 438131 candidates
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[adjacent] resume: 8359 already done, 426370 pending
+[adjacent] 500/426370 hits=11 rpm~8502 conc=80 inflight=79 429=0
+[adjacent] 1000/426370 hits=19 rpm~10580 conc=100 inflight=99 429=0
+[adjacent] 1500/426370 hits=37 rpm~7458 conc=125 inflight=124 429=0
+[adjacent] 2000/426370 hits=51 rpm~6322 conc=195 inflight=151 429=0
+[adjacent] 2500/426370 hits=65 rpm~5649 conc=243 inflight=219 429=0
+[adjacent] 3000/426370 hits=76 rpm~3005 conc=300 inflight=0 429=0
+[adjacent] 3500/426370 hits=87 rpm~3072 conc=300 inflight=271 429=0
+[adjacent] 4000/426370 hits=102 rpm~3064 conc=300 inflight=286 429=0
+[adjacent] 4500/426370 hits=113 rpm~3060 conc=300 inflight=283 429=0
+[adjacent] 5000/426370 hits=127 rpm~3128 conc=300 inflight=0 429=0
+[adjacent] 5500/426370 hits=135 rpm~3010 conc=300 inflight=299 429=0
+[adjacent] 6000/426370 hits=147 rpm~3010 conc=300 inflight=0 429=0

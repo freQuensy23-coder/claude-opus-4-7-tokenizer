@@ -1,0 +1,23 @@
+Downloading transformers (9.8MiB)
+Downloading sentencepiece (1.2MiB)
+Downloading tokenizers (2.8MiB)
+ Downloaded sentencepiece
+ Downloaded tokenizers
+ Downloaded transformers
+Installed 33 packages in 136ms
+
+=== phase: calibrate ===
+
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+=== phase calibrate done in 3.2s ===
+
+
+total elapsed: 3.2s

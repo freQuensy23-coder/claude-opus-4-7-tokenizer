@@ -1,0 +1,30 @@
+loaded 382404 candidates
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[adjacent] resume: 17175 already done, 379406 pending
+[adjacent] 500/379406 hits=0 rpm~7831 conc=80 inflight=79 429=0
+[adjacent] 1000/379406 hits=0 rpm~9938 conc=100 inflight=99 429=0
+[adjacent] 1500/379406 hits=0 rpm~11563 conc=125 inflight=122 429=0
+[adjacent] 2000/379406 hits=0 rpm~8298 conc=195 inflight=146 429=0
+[adjacent] 2500/379406 hits=0 rpm~6759 conc=243 inflight=216 429=0
+[adjacent] 3000/379406 hits=0 rpm~3006 conc=300 inflight=0 429=0
+[adjacent] 3500/379406 hits=0 rpm~3134 conc=300 inflight=281 429=0
+[adjacent] 4000/379406 hits=0 rpm~3158 conc=300 inflight=298 429=0
+[adjacent] 4500/379406 hits=0 rpm~3177 conc=300 inflight=297 429=0
+[adjacent] 5000/379406 hits=0 rpm~3183 conc=300 inflight=0 429=0
+[adjacent] 5500/379406 hits=0 rpm~3149 conc=300 inflight=298 429=0
+[adjacent] 6000/379406 hits=0 rpm~2988 conc=300 inflight=64 429=0
+[adjacent] 6500/379406 hits=0 rpm~3035 conc=300 inflight=279 429=0
+[adjacent] 7000/379406 hits=0 rpm~3046 conc=300 inflight=295 429=0
+[adjacent] 7500/379406 hits=0 rpm~3057 conc=300 inflight=295 429=0
+[adjacent] 8000/379406 hits=0 rpm~3033 conc=300 inflight=299 429=0
+[adjacent] 8500/379406 hits=0 rpm~3025 conc=300 inflight=298 429=0
+[adjacent] 9000/379406 hits=0 rpm~3008 conc=300 inflight=0 429=0
+[adjacent] 9500/379406 hits=0 rpm~3080 conc=300 inflight=13 429=0
+[adjacent] 10000/379406 hits=0 rpm~3079 conc=300 inflight=0 429=0
+[adjacent] 10500/379406 hits=0 rpm~3079 conc=300 inflight=59 429=0
+[adjacent] 11000/379406 hits=0 rpm~3064 conc=300 inflight=35 429=0
+[adjacent] 11500/379406 hits=0 rpm~3069 conc=300 inflight=196 429=0
+[adjacent] 12000/379406 hits=0 rpm~3006 conc=300 inflight=0 429=0
+[adjacent] 12500/379406 hits=0 rpm~3016 conc=300 inflight=279 429=0
+[adjacent] 13000/379406 hits=0 rpm~3026 conc=300 inflight=198 429=0
+[adjacent] 13500/379406 hits=1 rpm~3037 conc=300 inflight=195 429=0

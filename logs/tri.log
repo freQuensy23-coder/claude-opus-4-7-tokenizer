@@ -1,0 +1,134 @@
+known: 13120, probed: 653094
+candidates (vote>=3): 19818
+  votes= 84: '  );\n'
+  votes= 84: '  {\n'
+  votes= 84: '  */\n'
+  votes= 72: '   );\n'
+  votes= 72: '   {\n'
+  votes= 72: '   */\n'
+  votes= 48: '     );\n'
+  votes= 48: '     {\n'
+  votes= 48: '     */\n'
+  votes= 40: '      );\n'
+  votes= 40: '      {\n'
+  votes= 40: '      */\n'
+  votes= 38: ';\r\n'
+  votes= 32: 'bsinthi'
+  votes= 32: 'canthi'
+  votes= 32: 'erobi'
+  votes= 32: '       );\n'
+  votes= 32: '       {\n'
+  votes= 32: '       */\n'
+  votes= 28: 'HIL'
+  votes= 24: 'croteri'
+  votes= 24: 'ilomet'
+  votes= 20: 'ccompani'
+  votes= 20: 'LAC'
+  votes= 20: '=====\n'
+  votes= 20: 'ichel'
+  votes= 20: 'ysok'
+  votes= 19: '\xa0\xa0\xa0\xa0\xa0'
+  votes= 18: 'bige'
+  votes= 18: 'stoni'
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[tri] resume: 0 already done, 19818 pending
+[tri] 200/19818 hits=2 rpm~7170 conc=64 inflight=63 429=0
+[tri] 400/19818 hits=3 rpm~8778 conc=80 inflight=79 429=0
+[tri] 600/19818 hits=3 rpm~9649 conc=80 inflight=79 429=0
+[tri] 800/19818 hits=3 rpm~10354 conc=100 inflight=99 429=0
+[tri] 1000/19818 hits=3 rpm~11043 conc=100 inflight=99 429=0
+[tri] 1200/19818 hits=3 rpm~11653 conc=125 inflight=124 429=0
+[tri] 1400/19818 hits=6 rpm~12225 conc=125 inflight=124 429=0
+[tri] 1600/19818 hits=7 rpm~12907 conc=156 inflight=155 429=0
+[tri] 1800/19818 hits=7 rpm~13481 conc=156 inflight=155 429=0
+[tri] 2000/19818 hits=11 rpm~14180 conc=195 inflight=194 429=0
+[tri] 2200/19818 hits=11 rpm~11329 conc=195 inflight=193 429=0
+[tri] 2400/19818 hits=14 rpm~9557 conc=243 inflight=242 429=0
+[tri] 2600/19818 hits=17 rpm~8048 conc=243 inflight=241 429=0
+[tri] 2800/19818 hits=17 rpm~7685 conc=300 inflight=199 429=0
+[tri] 3000/19818 hits=19 rpm~2994 conc=300 inflight=64 429=0
+[tri] 3200/19818 hits=19 rpm~2997 conc=300 inflight=297 429=0
+[tri] 3400/19818 hits=19 rpm~3053 conc=300 inflight=298 429=0
+[tri] 3600/19818 hits=20 rpm~3130 conc=300 inflight=252 429=0
+[tri] 3800/19818 hits=21 rpm~3021 conc=300 inflight=299 429=0
+[tri] 4000/19818 hits=22 rpm~3116 conc=300 inflight=261 429=0
+[tri] 4200/19818 hits=22 rpm~3018 conc=300 inflight=299 429=0
+[tri] 4400/19818 hits=22 rpm~3095 conc=300 inflight=273 429=0
+[tri] 4600/19818 hits=22 rpm~3071 conc=300 inflight=298 429=0
+[tri] 4800/19818 hits=22 rpm~3066 conc=300 inflight=200 429=2
+[tri] 5000/19818 hits=22 rpm~3149 conc=300 inflight=0 429=2
+[tri] 5200/19818 hits=22 rpm~3083 conc=300 inflight=275 429=2
+[tri] 5400/19818 hits=22 rpm~3039 conc=300 inflight=298 429=2
+[tri] 5600/19818 hits=22 rpm~3063 conc=300 inflight=297 429=2
+[tri] 5800/19818 hits=22 rpm~3127 conc=300 inflight=197 429=2
+[tri] 6000/19818 hits=22 rpm~2988 conc=300 inflight=63 429=2
+[tri] 6200/19818 hits=23 rpm~2996 conc=300 inflight=298 429=2
+[tri] 6400/19818 hits=23 rpm~3023 conc=300 inflight=298 429=2
+[tri] 6600/19818 hits=23 rpm~3069 conc=300 inflight=228 429=2
+[tri] 6800/19818 hits=25 rpm~3014 conc=300 inflight=289 429=2
+[tri] 7000/19818 hits=26 rpm~3049 conc=300 inflight=279 429=2
+[tri] 7200/19818 hits=28 rpm~3008 conc=300 inflight=299 429=2
+[tri] 7400/19818 hits=28 rpm~3063 conc=300 inflight=171 429=2
+[tri] 7600/19818 hits=29 rpm~3009 conc=300 inflight=299 429=2
+[tri] 7800/19818 hits=29 rpm~3044 conc=300 inflight=200 429=2
+[tri] 8000/19818 hits=29 rpm~3093 conc=300 inflight=0 429=2
+[tri] 8200/19818 hits=29 rpm~3048 conc=300 inflight=289 429=2
+[tri] 8400/19818 hits=30 rpm~3025 conc=300 inflight=297 429=2
+[tri] 8600/19818 hits=30 rpm~3053 conc=300 inflight=206 429=2
+[tri] 8800/19818 hits=30 rpm~3050 conc=300 inflight=197 429=2
+[tri] 9000/19818 hits=31 rpm~2991 conc=300 inflight=63 429=2
+[tri] 9200/19818 hits=31 rpm~3009 conc=300 inflight=266 429=2
+[tri] 9400/19818 hits=31 rpm~3039 conc=300 inflight=158 429=2
+[tri] 9600/19818 hits=31 rpm~3008 conc=300 inflight=299 429=2
+[tri] 9800/19818 hits=32 rpm~3061 conc=300 inflight=151 429=2
+[tri] 10000/19818 hits=32 rpm~3037 conc=300 inflight=0 429=2
+[tri] 10200/19818 hits=32 rpm~3062 conc=300 inflight=169 429=2
+[tri] 10400/19818 hits=32 rpm~3026 conc=300 inflight=256 429=2
+[tri] 10600/19818 hits=32 rpm~3056 conc=300 inflight=203 429=2
+[tri] 10800/19818 hits=32 rpm~3029 conc=300 inflight=199 429=2
+[tri] 11000/19818 hits=32 rpm~3053 conc=300 inflight=79 429=2
+[tri] 11200/19818 hits=32 rpm~3036 conc=300 inflight=276 429=2
+[tri] 11400/19818 hits=32 rpm~3074 conc=300 inflight=88 429=2
+[tri] 11600/19818 hits=32 rpm~3039 conc=300 inflight=205 429=2
+[tri] 11800/19818 hits=32 rpm~3078 conc=300 inflight=5 429=2
+[tri] 12000/19818 hits=32 rpm~2992 conc=300 inflight=62 429=2
+[tri] 12200/19818 hits=32 rpm~2999 conc=300 inflight=282 429=2
+[tri] 12400/19818 hits=32 rpm~3001 conc=300 inflight=293 429=2
+[tri] 12600/19818 hits=32 rpm~3028 conc=300 inflight=150 429=2
+[tri] 12800/19818 hits=32 rpm~3004 conc=300 inflight=199 429=2
+[tri] 13000/19818 hits=32 rpm~2985 conc=300 inflight=299 429=2
+[tri] 13200/19818 hits=32 rpm~3006 conc=300 inflight=254 429=2
+[tri] 13400/19818 hits=32 rpm~2984 conc=300 inflight=299 429=2
+[tri] 13600/19818 hits=32 rpm~3008 conc=300 inflight=266 429=2
+[tri] 13800/19818 hits=32 rpm~2986 conc=300 inflight=299 429=2
+[tri] 14000/19818 hits=32 rpm~3001 conc=300 inflight=294 429=2
+[tri] 14200/19818 hits=32 rpm~3015 conc=300 inflight=256 429=2
+[tri] 14400/19818 hits=32 rpm~2994 conc=300 inflight=299 429=2
+[tri] 14600/19818 hits=33 rpm~3020 conc=300 inflight=205 429=2
+[tri] 14800/19818 hits=33 rpm~2991 conc=300 inflight=196 429=2
+[tri] 15000/19818 hits=33 rpm~2995 conc=300 inflight=0 429=2
+[tri] 15200/19818 hits=33 rpm~2996 conc=300 inflight=259 429=2
+[tri] 15400/19818 hits=33 rpm~2977 conc=300 inflight=298 429=2
+[tri] 15600/19818 hits=34 rpm~2994 conc=300 inflight=292 429=2
+[tri] 15800/19818 hits=35 rpm~2993 conc=300 inflight=199 429=2
+[tri] 16000/19818 hits=35 rpm~2993 conc=300 inflight=260 429=2
+[tri] 16200/19818 hits=35 rpm~3010 conc=300 inflight=155 429=2
+[tri] 16400/19818 hits=35 rpm~2991 conc=300 inflight=284 429=2
+[tri] 16600/19818 hits=35 rpm~2998 conc=300 inflight=266 429=2
+[tri] 16800/19818 hits=35 rpm~2985 conc=300 inflight=292 429=2
+[tri] 17000/19818 hits=36 rpm~3001 conc=300 inflight=135 429=2
+[tri] 17200/19818 hits=36 rpm~2981 conc=300 inflight=285 429=2
+[tri] 17400/19818 hits=37 rpm~2990 conc=300 inflight=297 429=2
+[tri] 17600/19818 hits=38 rpm~2976 conc=300 inflight=299 429=2
+[tri] 17800/19818 hits=38 rpm~2999 conc=300 inflight=196 429=2
+[tri] 18000/19818 hits=38 rpm~2979 conc=300 inflight=299 429=2
+[tri] 18200/19818 hits=38 rpm~2997 conc=300 inflight=259 429=2
+[tri] 18400/19818 hits=38 rpm~2980 conc=300 inflight=299 429=2
+[tri] 18600/19818 hits=39 rpm~3003 conc=300 inflight=134 429=2
+[tri] 18800/19818 hits=39 rpm~2986 conc=300 inflight=211 429=2
+[tri] 19000/19818 hits=39 rpm~3006 conc=300 inflight=87 429=2
+[tri] 19200/19818 hits=39 rpm~2990 conc=300 inflight=279 429=2
+[tri] 19400/19818 hits=41 rpm~3009 conc=300 inflight=116 429=2
+[tri] 19600/19818 hits=42 rpm~2993 conc=300 inflight=218 429=2
+[tri] 19800/19818 hits=42 rpm~3012 conc=300 inflight=18 429=2
+[tri] done. probed=19818 hits=42 checked_total=19818

@@ -1,0 +1,47 @@
+known tokens: 13212
+probed strings: 993682
+c=2 records: 371831
+records yielding candidates: 28170 / 371831
+unique candidates: 37819
+\n--- top 30 candidates by vote ---
+  votes=  17: 'sout'
+  votes=  13: 'No '
+  votes=  10: ' seca'
+  votes=   9: '–1'
+  votes=   8: 'here we'
+  votes=   8: 'round h'
+  votes=   8: ',91'
+  votes=   7: 'he las'
+  votes=   7: 're we'
+  votes=   7: 'or som'
+  votes=   7: 'ut no'
+  votes=   7: 'e too'
+  votes=   7: '\t\t  '
+  votes=   7: 'im th'
+  votes=   7: 'here th'
+  votes=   7: '46,'
+  votes=   7: ',96'
+  votes=   7: ',92'
+  votes=   7: 'An '
+  votes=   6: '0200'
+  votes=   6: 'at ther'
+  votes=   6: 'an wh'
+  votes=   6: 'о н'
+  votes=   6: 'ија'
+  votes=   6: 'вад'
+  votes=   6: 'im i'
+  votes=   6: 'ння'
+  votes=   6: 'for d'
+  votes=   6: 'O '
+  votes=   6: ',94'
+\nwrote 37803 candidates to /tmp/smart_brute_cands.txt
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[brute] resume: 0 already done, 37803 pending
+[brute] 200/37803 hits=5 rpm~7333 conc=64 inflight=63 429=0
+[brute] 400/37803 hits=5 rpm~9078 conc=80 inflight=79 429=0
+[brute] 600/37803 hits=5 rpm~10007 conc=80 inflight=79 429=0
+[brute] 800/37803 hits=7 rpm~11005 conc=100 inflight=99 429=0
+[brute] 1000/37803 hits=9 rpm~11743 conc=100 inflight=98 429=0
+[brute] 1200/37803 hits=10 rpm~12411 conc=125 inflight=124 429=0
+[brute] 1400/37803 hits=15 rpm~13038 conc=125 inflight=124 429=0
+[brute] 1600/37803 hits=16 rpm~6701 conc=4 inflight=3 429=98

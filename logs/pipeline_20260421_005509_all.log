@@ -1,0 +1,52 @@
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 5.6s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.8s ===
+
+
+=== phase: handcrafted ===
+[handcrafted] total unique: 56387; new to check: 52081
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[handcrafted] resume: 0 already done, 52081 pending
+[handcrafted] 500/52081 hits=1 rpm~8970 conc=80 inflight=79 429=0
+[handcrafted] 1000/52081 hits=1 rpm~10619 conc=100 inflight=99 429=0
+[handcrafted] 1500/52081 hits=1 rpm~6339 conc=125 inflight=124 429=0
+[handcrafted] 2000/52081 hits=1 rpm~5056 conc=195 inflight=194 429=0
+[handcrafted] 2500/52081 hits=36 rpm~4836 conc=243 inflight=229 429=0
+[handcrafted] 3000/52081 hits=46 rpm~3000 conc=300 inflight=0 429=0
+[handcrafted] 3500/52081 hits=46 rpm~3118 conc=300 inflight=270 429=0
+[handcrafted] 4000/52081 hits=46 rpm~3145 conc=300 inflight=246 429=0
+[handcrafted] 4500/52081 hits=46 rpm~3176 conc=300 inflight=238 429=0
+[handcrafted] 5000/52081 hits=47 rpm~3203 conc=300 inflight=0 429=0
+[handcrafted] 5500/52081 hits=47 rpm~3080 conc=300 inflight=299 429=0
+[handcrafted] 6000/52081 hits=47 rpm~3007 conc=300 inflight=0 429=0
+[handcrafted] 6500/52081 hits=47 rpm~3061 conc=300 inflight=261 429=0
+[handcrafted] 7000/52081 hits=47 rpm~3086 conc=300 inflight=139 429=0
+[handcrafted] 7500/52081 hits=47 rpm~3027 conc=300 inflight=297 429=0
+[handcrafted] 8000/52081 hits=47 rpm~3125 conc=300 inflight=0 429=0
+[handcrafted] 8500/52081 hits=48 rpm~3066 conc=300 inflight=248 429=0
+[handcrafted] 9000/52081 hits=48 rpm~3001 conc=300 inflight=0 429=0
+[handcrafted] 9500/52081 hits=48 rpm~3036 conc=300 inflight=261 429=0
+[handcrafted] 10000/52081 hits=48 rpm~3066 conc=300 inflight=0 429=0
+[handcrafted] 10500/52081 hits=48 rpm~3021 conc=300 inflight=295 429=0
+[handcrafted] 11000/52081 hits=48 rpm~3049 conc=300 inflight=243 429=0
+[handcrafted] 11500/52081 hits=48 rpm~3066 conc=300 inflight=186 429=0

@@ -1,0 +1,36 @@
+all substrings: 8784
+NEW to probe: 6318
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[eval_sub] resume: 0 already done, 6318 pending
+[eval_sub] 200/6318 hits=0 rpm~7253 conc=64 inflight=63 429=0
+[eval_sub] 400/6318 hits=0 rpm~8714 conc=80 inflight=79 429=0
+[eval_sub] 600/6318 hits=0 rpm~9755 conc=80 inflight=79 429=0
+[eval_sub] 800/6318 hits=0 rpm~10591 conc=100 inflight=99 429=0
+[eval_sub] 1000/6318 hits=0 rpm~11273 conc=100 inflight=99 429=0
+[eval_sub] 1200/6318 hits=0 rpm~11935 conc=125 inflight=124 429=0
+[eval_sub] 1400/6318 hits=0 rpm~9427 conc=125 inflight=124 429=0
+[eval_sub] 1600/6318 hits=0 rpm~7841 conc=156 inflight=123 429=0
+[eval_sub] 1800/6318 hits=0 rpm~6567 conc=156 inflight=154 429=0
+[eval_sub] 2000/6318 hits=0 rpm~6473 conc=195 inflight=154 429=0
+[eval_sub] 2200/6318 hits=0 rpm~5600 conc=195 inflight=192 429=0
+[eval_sub] 2400/6318 hits=0 rpm~5727 conc=243 inflight=186 429=0
+[eval_sub] 2600/6318 hits=0 rpm~5077 conc=243 inflight=242 429=0
+[eval_sub] 2800/6318 hits=0 rpm~5223 conc=300 inflight=199 429=0
+[eval_sub] 3000/6318 hits=0 rpm~2992 conc=300 inflight=64 429=0
+[eval_sub] 3200/6318 hits=0 rpm~3006 conc=300 inflight=299 429=0
+[eval_sub] 3400/6318 hits=0 rpm~3056 conc=300 inflight=295 429=0
+[eval_sub] 3600/6318 hits=0 rpm~3145 conc=300 inflight=236 429=0
+[eval_sub] 3800/6318 hits=0 rpm~3029 conc=300 inflight=298 429=0
+[eval_sub] 4000/6318 hits=0 rpm~3141 conc=300 inflight=233 429=0
+[eval_sub] 4200/6318 hits=0 rpm~3035 conc=300 inflight=299 429=0
+[eval_sub] 4400/6318 hits=0 rpm~3124 conc=300 inflight=254 429=0
+[eval_sub] 4600/6318 hits=0 rpm~3061 conc=300 inflight=299 429=0
+[eval_sub] 4800/6318 hits=0 rpm~3093 conc=300 inflight=200 429=0
+[eval_sub] 5000/6318 hits=0 rpm~3171 conc=300 inflight=0 429=0
+[eval_sub] 5200/6318 hits=0 rpm~3101 conc=300 inflight=268 429=0
+[eval_sub] 5400/6318 hits=0 rpm~3055 conc=300 inflight=299 429=0
+[eval_sub] 5600/6318 hits=0 rpm~3091 conc=300 inflight=293 429=0
+[eval_sub] 5800/6318 hits=0 rpm~3146 conc=300 inflight=199 429=0
+[eval_sub] 6000/6318 hits=0 rpm~3008 conc=300 inflight=0 429=0
+[eval_sub] 6200/6318 hits=0 rpm~3041 conc=300 inflight=118 429=0
+[eval_sub] done. probed=6318 hits=0 checked_total=6318

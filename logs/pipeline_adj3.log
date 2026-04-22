@@ -1,0 +1,8 @@
+loaded 382404 candidates
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[adjacent] resume: 14177 already done, 382404 pending
+[adjacent] 500/382404 hits=0 rpm~8598 conc=80 inflight=79 429=0
+[adjacent] 1000/382404 hits=1 rpm~10646 conc=100 inflight=98 429=0
+[adjacent] 1500/382404 hits=2 rpm~12257 conc=125 inflight=122 429=0
+[adjacent] 2000/382404 hits=2 rpm~8319 conc=195 inflight=194 429=0
+[adjacent] 2500/382404 hits=2 rpm~6821 conc=243 inflight=228 429=0

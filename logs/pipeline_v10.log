@@ -1,0 +1,77 @@
+Logging to logs/pipeline_20260421_024013_all.log
+Phase: all  RPM: 3000  MaxConcurrency: 300  Model: claude-opus-4-7
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 5.0s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 1.6s ===
+
+
+=== phase: context ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[context iter 0] seed: 9219; variants: 22932; new to probe: 6121
+[context-it0] resume: 22857 already done, 6121 pending
+[context-it0] 500/6121 hits=47 rpm~9162 conc=80 inflight=79 429=0
+[context-it0] 1000/6121 hits=91 rpm~11274 conc=100 inflight=99 429=0
+[context-it0] 1500/6121 hits=131 rpm~12846 conc=125 inflight=121 429=0
+[context-it0] 2000/6121 hits=175 rpm~7138 conc=195 inflight=154 429=0
+[context-it0] 2500/6121 hits=215 rpm~5759 conc=243 inflight=242 429=0
+[context-it0] 3000/6121 hits=257 rpm~3028 conc=300 inflight=0 429=0
+[context-it0] 3500/6121 hits=296 rpm~3102 conc=300 inflight=261 429=0
+[context-it0] 4000/6121 hits=352 rpm~3127 conc=300 inflight=256 429=0
+[context-it0] 4500/6121 hits=382 rpm~3147 conc=300 inflight=243 429=0
+[context-it0] 5000/6121 hits=421 rpm~3172 conc=300 inflight=0 429=0
+[context-it0] 5500/6121 hits=461 rpm~3084 conc=300 inflight=299 429=0
+[context-it0] 6000/6121 hits=509 rpm~3021 conc=300 inflight=0 429=0
+[context-it0] done. probed=6121 hits=520 checked_total=28978
+[context iter 0] +520 new tokens this iteration
+[context iter 1] seed: 9739; variants: 22932; new to probe: 0
+[context] no new candidates, stopping
+=== phase context done in 123.6s ===
+
+
+=== phase: handcrafted ===
+[handcrafted] total unique: 56387; new to check: 0
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[handcrafted] resume: 52081 already done, 0 pending
+=== phase handcrafted done in 0.8s ===
+
+
+=== phase: kgram ===
+[kgram] corpus size: 317112 bytes
+[kgram] unique word-anchored k-grams (freq>=2): 572820
+[kgram] new to probe (capped at 60000): 60000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[kgram] resume: 38203 already done, 60000 pending
+[kgram] 500/60000 hits=0 rpm~9222 conc=80 inflight=79 429=0
+[kgram] 1000/60000 hits=0 rpm~11261 conc=100 inflight=98 429=0
+[kgram] 1500/60000 hits=0 rpm~12850 conc=125 inflight=123 429=0
+[kgram] 2000/60000 hits=0 rpm~9019 conc=195 inflight=194 429=0
+[kgram] 2500/60000 hits=0 rpm~7198 conc=243 inflight=237 429=0
+[kgram] 3000/60000 hits=0 rpm~3000 conc=300 inflight=0 429=0
+[kgram] 3500/60000 hits=0 rpm~3095 conc=300 inflight=290 429=0
+[kgram] 4000/60000 hits=0 rpm~3121 conc=300 inflight=261 429=0
+[kgram] 4500/60000 hits=0 rpm~3140 conc=300 inflight=267 429=0
+[kgram] 5000/60000 hits=0 rpm~3187 conc=300 inflight=0 429=0
+[kgram] 5500/60000 hits=0 rpm~3090 conc=300 inflight=299 429=0
+[kgram] 6000/60000 hits=0 rpm~3008 conc=300 inflight=0 429=0
+[kgram] 6500/60000 hits=0 rpm~3061 conc=300 inflight=234 429=0
+[kgram] 7000/60000 hits=0 rpm~3073 conc=300 inflight=199 429=0

@@ -1,0 +1,16 @@
+Logging to logs/pipeline_20260421_024449_corpus.log
+Phase: corpus  RPM: 3000  MaxConcurrency: 300  Model: claude-opus-4-7
+
+=== phase: corpus ===
+[corpus] corpus bytes: 317112, seed vocab: 9739
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[corpus] iter 0: 115628 candidates, 60000 new to probe
+[corpus-it0] resume: 0 done, 60000 pending
+[corpus-it0] 500/60000 hits=0 (0ppm) rpm~9122 conc=80 inflight=79 429=0
+[corpus-it0] 1000/60000 hits=0 (0ppm) rpm~11385 conc=100 inflight=99 429=0
+[corpus-it0] 1500/60000 hits=0 (0ppm) rpm~6886 conc=125 inflight=123 429=0
+[corpus-it0] 2000/60000 hits=0 (0ppm) rpm~5080 conc=195 inflight=153 429=0
+[corpus-it0] 2500/60000 hits=0 (0ppm) rpm~4817 conc=243 inflight=238 429=0
+[corpus-it0] 3000/60000 hits=1 (333ppm) rpm~4171 conc=300 inflight=0 429=0
+[corpus-it0] 3500/60000 hits=1 (285ppm) rpm~3278 conc=300 inflight=271 429=0
+[corpus-it0] 4000/60000 hits=1 (250ppm) rpm~3409 conc=300 inflight=0 429=0

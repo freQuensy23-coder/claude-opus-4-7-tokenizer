@@ -1,0 +1,72 @@
+Logging to logs/pipeline_20260421_020134_all.log
+Phase: all  RPM: 3000  MaxConcurrency: 300  Model: claude-opus-4-7
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 4.9s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.8s ===
+
+
+=== phase: handcrafted ===
+[handcrafted] total unique: 56387; new to check: 0
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[handcrafted] resume: 52081 already done, 0 pending
+=== phase handcrafted done in 0.8s ===
+
+
+=== phase: ngram ===
+[ngram] total unique: 32488; new to check: 26874
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[ngram] resume: 0 already done, 26874 pending
+[ngram] 500/26874 hits=0 rpm~8894 conc=80 inflight=79 429=0
+[ngram] 1000/26874 hits=0 rpm~11051 conc=100 inflight=99 429=0
+[ngram] 1500/26874 hits=0 rpm~12939 conc=125 inflight=124 429=0
+[ngram] 2000/26874 hits=0 rpm~9287 conc=195 inflight=194 429=0
+[ngram] 2500/26874 hits=0 rpm~7241 conc=243 inflight=241 429=0
+[ngram] 3000/26874 hits=0 rpm~2996 conc=300 inflight=64 429=0
+[ngram] 3500/26874 hits=0 rpm~3105 conc=300 inflight=281 429=0
+[ngram] 4000/26874 hits=0 rpm~3143 conc=300 inflight=281 429=0
+[ngram] 4500/26874 hits=0 rpm~3175 conc=300 inflight=241 429=0
+[ngram] 5000/26874 hits=0 rpm~3202 conc=300 inflight=0 429=0
+[ngram] 5500/26874 hits=0 rpm~3087 conc=300 inflight=299 429=0
+[ngram] 6000/26874 hits=0 rpm~3007 conc=300 inflight=0 429=0
+[ngram] 6500/26874 hits=0 rpm~3059 conc=300 inflight=231 429=0
+[ngram] 7000/26874 hits=0 rpm~3089 conc=300 inflight=101 429=0
+[ngram] 7500/26874 hits=0 rpm~3029 conc=300 inflight=298 429=0
+[ngram] 8000/26874 hits=0 rpm~3065 conc=300 inflight=293 429=0
+[ngram] 8500/26874 hits=0 rpm~3097 conc=300 inflight=202 429=0
+[ngram] 9000/26874 hits=0 rpm~2998 conc=300 inflight=64 429=0
+[ngram] 9500/26874 hits=0 rpm~3032 conc=300 inflight=281 429=0
+[ngram] 10000/26874 hits=0 rpm~3068 conc=300 inflight=0 429=0
+[ngram] 10500/26874 hits=0 rpm~3013 conc=300 inflight=299 429=0
+[ngram] 11000/26874 hits=0 rpm~3031 conc=300 inflight=297 429=0
+[ngram] 11500/26874 hits=0 rpm~3061 conc=300 inflight=206 429=0
+[ngram] 12000/26874 hits=0 rpm~2998 conc=300 inflight=64 429=0
+[ngram] 12500/26874 hits=0 rpm~3022 conc=300 inflight=267 429=0
+[ngram] 13000/26874 hits=0 rpm~3012 conc=300 inflight=299 429=0
+[ngram] 13500/26874 hits=0 rpm~3010 conc=300 inflight=296 429=0
+[ngram] 14000/26874 hits=0 rpm~3027 conc=300 inflight=255 429=0
+[ngram] 14500/26874 hits=0 rpm~3047 conc=300 inflight=206 429=0
+[ngram] 15000/26874 hits=0 rpm~2999 conc=300 inflight=0 429=0
+[ngram] 15500/26874 hits=0 rpm~3015 conc=300 inflight=267 429=0
+[ngram] 16000/26874 hits=0 rpm~3007 conc=300 inflight=299 429=0
+[ngram] 16500/26874 hits=0 rpm~3006 conc=300 inflight=299 429=0
+[ngram] 17000/26874 hits=0 rpm~3021 conc=300 inflight=255 429=0

@@ -1,0 +1,51 @@
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 4.9s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.8s ===
+
+
+=== phase: handcrafted ===
+[handcrafted] total unique: 56387; new to check: 0
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[handcrafted] resume: 52081 already done, 0 pending
+=== phase handcrafted done in 0.9s ===
+
+
+=== phase: kgram ===
+[kgram] corpus size: 314446 bytes
+[kgram] unique word-anchored k-grams (freq>=2): 567800
+[kgram] new to probe (capped at 60000): 60000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[kgram] resume: 31486 already done, 60000 pending
+[kgram] 500/60000 hits=3 rpm~9019 conc=80 inflight=79 429=0
+[kgram] 1000/60000 hits=7 rpm~11254 conc=100 inflight=99 429=0
+[kgram] 1500/60000 hits=9 rpm~13008 conc=125 inflight=122 429=0
+[kgram] 2000/60000 hits=12 rpm~7163 conc=195 inflight=154 429=0
+[kgram] 2500/60000 hits=16 rpm~5793 conc=243 inflight=242 429=0
+[kgram] 3000/60000 hits=22 rpm~3002 conc=300 inflight=0 429=0
+[kgram] 3500/60000 hits=23 rpm~3091 conc=300 inflight=286 429=0
+[kgram] 4000/60000 hits=31 rpm~3122 conc=300 inflight=282 429=0
+[kgram] 4500/60000 hits=37 rpm~3138 conc=300 inflight=295 429=0
+[kgram] 5000/60000 hits=40 rpm~3171 conc=300 inflight=0 429=0
+[kgram] 5500/60000 hits=41 rpm~3052 conc=300 inflight=299 429=0
+[kgram] 6000/60000 hits=42 rpm~3009 conc=300 inflight=0 429=0
+[kgram] 6500/60000 hits=46 rpm~3000 conc=300 inflight=299 429=0

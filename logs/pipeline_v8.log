@@ -1,0 +1,42 @@
+Logging to logs/pipeline_20260421_023417_all.log
+Phase: all  RPM: 3000  MaxConcurrency: 300  Model: claude-opus-4-7
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 5.1s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.8s ===
+
+
+=== phase: context ===
+[context] seed vocab: 39031; generated: 345744; new to probe: 307151
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[context] resume: 5853 already done, 307151 pending
+[context] 500/307151 hits=13 rpm~8673 conc=80 inflight=79 429=0
+[context] 1000/307151 hits=21 rpm~10835 conc=100 inflight=99 429=0
+[context] 1500/307151 hits=31 rpm~12691 conc=125 inflight=124 429=0
+[context] 2000/307151 hits=35 rpm~8766 conc=195 inflight=152 429=0
+[context] 2500/307151 hits=36 rpm~7221 conc=243 inflight=234 429=0
+[context] 3000/307151 hits=40 rpm~3004 conc=300 inflight=0 429=0
+[context] 3500/307151 hits=47 rpm~3102 conc=300 inflight=251 429=0
+[context] 4000/307151 hits=52 rpm~3134 conc=300 inflight=234 429=0
+[context] 4500/307151 hits=55 rpm~3148 conc=300 inflight=262 429=0
+[context] 5000/307151 hits=58 rpm~3188 conc=300 inflight=0 429=0
+[context] 5500/307151 hits=64 rpm~3066 conc=300 inflight=299 429=0

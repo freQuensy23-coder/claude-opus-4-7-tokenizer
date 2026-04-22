@@ -1,0 +1,16 @@
+
+=== phase: boundary ===
+[boundary] candidates: 47363, new to probe: 36502
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[boundary] resume: 0 done, 36502 pending
+[boundary] 500/36502 hits=0 (0ppm) rpm~8234 conc=80 inflight=79 429=0
+[boundary] 1000/36502 hits=0 (0ppm) rpm~10494 conc=100 inflight=99 429=0
+[boundary] 1500/36502 hits=0 (0ppm) rpm~12408 conc=125 inflight=122 429=0
+[boundary] 2000/36502 hits=0 (0ppm) rpm~8682 conc=195 inflight=194 429=0
+[boundary] 2500/36502 hits=0 (0ppm) rpm~7250 conc=243 inflight=221 429=0
+[boundary] 3000/36502 hits=0 (0ppm) rpm~2996 conc=300 inflight=64 429=0
+[boundary] 3500/36502 hits=0 (0ppm) rpm~3128 conc=300 inflight=297 429=0
+[boundary] 4000/36502 hits=0 (0ppm) rpm~3178 conc=300 inflight=0 429=0
+[boundary] 4500/36502 hits=0 (0ppm) rpm~3204 conc=300 inflight=299 429=0
+[boundary] 5000/36502 hits=0 (0ppm) rpm~3217 conc=300 inflight=299 429=0
+[boundary] 5500/36502 hits=0 (0ppm) rpm~3228 conc=300 inflight=296 429=0

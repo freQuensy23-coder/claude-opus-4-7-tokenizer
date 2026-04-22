@@ -1,0 +1,15 @@
+loaded 57292
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[constraint] resume: 12222 already done, 57292 pending
+[constraint] 500/57292 hits=0 rpm~9252 conc=80 inflight=79 429=0
+[constraint] 1000/57292 hits=31 rpm~11384 conc=100 inflight=99 429=0
+[constraint] 1500/57292 hits=31 rpm~13050 conc=125 inflight=123 429=0
+[constraint] 2000/57292 hits=31 rpm~8881 conc=195 inflight=152 429=0
+[constraint] 2500/57292 hits=31 rpm~7091 conc=243 inflight=214 429=0
+[constraint] 3000/57292 hits=31 rpm~2997 conc=300 inflight=64 429=0
+[constraint] 3500/57292 hits=31 rpm~3089 conc=300 inflight=292 429=0
+[constraint] 4000/57292 hits=31 rpm~3127 conc=300 inflight=224 429=0
+[constraint] 4500/57292 hits=31 rpm~3123 conc=300 inflight=261 429=0
+[constraint] 5000/57292 hits=31 rpm~3163 conc=300 inflight=0 429=0
+[constraint] 5500/57292 hits=31 rpm~3042 conc=300 inflight=298 429=0
+[constraint] 6000/57292 hits=31 rpm~3003 conc=300 inflight=0 429=0

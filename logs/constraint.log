@@ -1,0 +1,27 @@
+loaded 66194 candidates
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[constraint] resume: 0 already done, 66194 pending
+[constraint] 500/66194 hits=33 rpm~9168 conc=80 inflight=79 429=0
+[constraint] 1000/66194 hits=57 rpm~11229 conc=100 inflight=99 429=0
+[constraint] 1500/66194 hits=91 rpm~12759 conc=125 inflight=124 429=0
+[constraint] 2000/66194 hits=104 rpm~14433 conc=195 inflight=194 429=0
+[constraint] 2500/66194 hits=104 rpm~9708 conc=243 inflight=231 429=0
+[constraint] 3000/66194 hits=169 rpm~2998 conc=300 inflight=64 429=0
+[constraint] 3500/66194 hits=183 rpm~3126 conc=300 inflight=255 429=0
+[constraint] 4000/66194 hits=189 rpm~3150 conc=300 inflight=246 429=0
+[constraint] 4500/66194 hits=203 rpm~3158 conc=300 inflight=237 429=0
+[constraint] 5000/66194 hits=211 rpm~3184 conc=300 inflight=0 429=0
+[constraint] 5500/66194 hits=211 rpm~3066 conc=300 inflight=299 429=0
+[constraint] 6000/66194 hits=211 rpm~3007 conc=300 inflight=0 429=0
+[constraint] 6500/66194 hits=211 rpm~3046 conc=300 inflight=292 429=1
+[constraint] 7000/66194 hits=211 rpm~3064 conc=300 inflight=262 429=1
+[constraint] 7500/66194 hits=211 rpm~3080 conc=300 inflight=219 429=1
+[constraint] 8000/66194 hits=211 rpm~3033 conc=300 inflight=299 429=1
+[constraint] 8500/66194 hits=211 rpm~3031 conc=300 inflight=294 429=1
+[constraint] 9000/66194 hits=211 rpm~2992 conc=300 inflight=64 429=1
+[constraint] 9500/66194 hits=211 rpm~3008 conc=300 inflight=299 429=1
+[constraint] 10000/66194 hits=211 rpm~3046 conc=300 inflight=0 429=1
+[constraint] 10500/66194 hits=215 rpm~3041 conc=300 inflight=298 429=1
+[constraint] 11000/66194 hits=220 rpm~3029 conc=300 inflight=299 429=1
+[constraint] 11500/66194 hits=222 rpm~3055 conc=300 inflight=199 429=1
+[constraint] 12000/66194 hits=228 rpm~2992 conc=300 inflight=65 429=1

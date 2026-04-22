@@ -1,0 +1,166 @@
+
+=== phase: calibrate ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+baseline(§§) = 13
+  count('a') = 1
+  count(' the') = 1
+  count('hello') = 2
+  count('0') = 1
+  count('é') = 1
+  count('の') = 1
+  count(' function') = 1
+  count('    ') = 1
+  count('```') = 1
+  count('```python') = 2
+  count(' const') = 1
+  count(' return') = 1
+=== phase calibrate done in 4.8s ===
+
+
+=== phase: port ===
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[port-4.6] resume: 38360 already done, 0 pending
+=== phase port done in 0.7s ===
+
+
+=== phase: handcrafted ===
+[handcrafted] total unique: 56387; new to check: 40347
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[handcrafted] resume: 11734 already done, 40347 pending
+[handcrafted] 500/40347 hits=0 rpm~8783 conc=80 inflight=79 429=0
+[handcrafted] 1000/40347 hits=0 rpm~10966 conc=100 inflight=99 429=0
+[handcrafted] 1500/40347 hits=0 rpm~7514 conc=125 inflight=122 429=0
+[handcrafted] 2000/40347 hits=0 rpm~6141 conc=195 inflight=154 429=0
+[handcrafted] 2500/40347 hits=0 rpm~4911 conc=243 inflight=242 429=0
+[handcrafted] 3000/40347 hits=0 rpm~3005 conc=300 inflight=0 429=0
+[handcrafted] 3500/40347 hits=0 rpm~3093 conc=300 inflight=275 429=0
+[handcrafted] 4000/40347 hits=0 rpm~3122 conc=300 inflight=288 429=0
+[handcrafted] 4500/40347 hits=0 rpm~3147 conc=300 inflight=263 429=0
+[handcrafted] 5000/40347 hits=0 rpm~3164 conc=300 inflight=0 429=0
+[handcrafted] 5500/40347 hits=0 rpm~3098 conc=300 inflight=299 429=0
+[handcrafted] 6000/40347 hits=0 rpm~3001 conc=300 inflight=0 429=0
+[handcrafted] 6500/40347 hits=0 rpm~3038 conc=300 inflight=284 429=0
+[handcrafted] 7000/40347 hits=0 rpm~3060 conc=300 inflight=254 429=0
+[handcrafted] 7500/40347 hits=0 rpm~3085 conc=300 inflight=263 429=0
+[handcrafted] 8000/40347 hits=0 rpm~3105 conc=300 inflight=0 429=0
+[handcrafted] 8500/40347 hits=0 rpm~3038 conc=300 inflight=295 429=0
+[handcrafted] 9000/40347 hits=0 rpm~3006 conc=300 inflight=0 429=0
+[handcrafted] 9500/40347 hits=0 rpm~3033 conc=300 inflight=226 429=0
+[handcrafted] 10000/40347 hits=0 rpm~2732 conc=300 inflight=0 429=0
+[handcrafted] 10500/40347 hits=0 rpm~2750 conc=300 inflight=299 429=0
+[handcrafted] 11000/40347 hits=0 rpm~2775 conc=300 inflight=299 429=0
+[handcrafted] 11500/40347 hits=0 rpm~2802 conc=300 inflight=273 429=0
+[handcrafted] 12000/40347 hits=0 rpm~2824 conc=300 inflight=276 429=0
+[handcrafted] 12500/40347 hits=0 rpm~2845 conc=300 inflight=238 429=0
+[handcrafted] 13000/40347 hits=0 rpm~2861 conc=300 inflight=0 429=0
+[handcrafted] 13500/40347 hits=0 rpm~2808 conc=300 inflight=242 429=0
+[handcrafted] 14000/40347 hits=0 rpm~2828 conc=300 inflight=202 429=0
+[handcrafted] 14500/40347 hits=0 rpm~2841 conc=300 inflight=253 429=0
+[handcrafted] 15000/40347 hits=0 rpm~2865 conc=300 inflight=0 429=0
+[handcrafted] 15500/40347 hits=0 rpm~2850 conc=300 inflight=299 429=0
+[handcrafted] 16000/40347 hits=0 rpm~2869 conc=300 inflight=0 429=0
+[handcrafted] 16500/40347 hits=0 rpm~2839 conc=300 inflight=254 429=0
+[handcrafted] 17000/40347 hits=0 rpm~2858 conc=300 inflight=198 429=0
+[handcrafted] 17500/40347 hits=0 rpm~2858 conc=300 inflight=294 429=0
+[handcrafted] 18000/40347 hits=0 rpm~2857 conc=300 inflight=299 429=0
+[handcrafted] 18500/40347 hits=0 rpm~2876 conc=300 inflight=287 429=0
+[handcrafted] 19000/40347 hits=0 rpm~2894 conc=300 inflight=0 429=0
+[handcrafted] 19500/40347 hits=0 rpm~2860 conc=300 inflight=254 429=0
+[handcrafted] 20000/40347 hits=0 rpm~2879 conc=300 inflight=0 429=0
+[handcrafted] 20500/40347 hits=0 rpm~2861 conc=300 inflight=299 429=0
+[handcrafted] 21000/40347 hits=0 rpm~2875 conc=300 inflight=299 429=0
+[handcrafted] 21500/40347 hits=0 rpm~2891 conc=300 inflight=244 429=0
+[handcrafted] 22000/40347 hits=0 rpm~2904 conc=300 inflight=0 429=0
+[handcrafted] 22500/40347 hits=0 rpm~2883 conc=300 inflight=178 429=0
+[handcrafted] 23000/40347 hits=0 rpm~2896 conc=300 inflight=0 429=0
+[handcrafted] 23500/40347 hits=0 rpm~2878 conc=300 inflight=284 429=0
+[handcrafted] 24000/40347 hits=0 rpm~2888 conc=300 inflight=291 429=0
+[handcrafted] 24500/40347 hits=0 rpm~2901 conc=300 inflight=248 429=0
+[handcrafted] 25000/40347 hits=0 rpm~2912 conc=300 inflight=0 429=0
+[handcrafted] 25500/40347 hits=0 rpm~2894 conc=300 inflight=178 429=0
+[handcrafted] 26000/40347 hits=0 rpm~2905 conc=300 inflight=0 429=0
+[handcrafted] 26500/40347 hits=0 rpm~2890 conc=300 inflight=298 429=0
+[handcrafted] 27000/40347 hits=0 rpm~2902 conc=300 inflight=204 429=0
+[handcrafted] 27500/40347 hits=0 rpm~2905 conc=300 inflight=298 429=0
+[handcrafted] 28000/40347 hits=0 rpm~2915 conc=300 inflight=0 429=0
+[handcrafted] 28500/40347 hits=0 rpm~2902 conc=300 inflight=178 429=0
+[handcrafted] 29000/40347 hits=0 rpm~2912 conc=300 inflight=0 429=0
+[handcrafted] 29500/40347 hits=0 rpm~2900 conc=300 inflight=299 429=0
+[handcrafted] 30000/40347 hits=0 rpm~2913 conc=300 inflight=0 429=0
+[handcrafted] 30500/40347 hits=0 rpm~2903 conc=300 inflight=299 429=0
+[handcrafted] 31000/40347 hits=0 rpm~2911 conc=300 inflight=0 429=0
+[handcrafted] 31500/40347 hits=0 rpm~2907 conc=300 inflight=178 429=0
+[handcrafted] 32000/40347 hits=0 rpm~2917 conc=300 inflight=0 429=0
+[handcrafted] 32500/40347 hits=0 rpm~2906 conc=300 inflight=299 429=0
+[handcrafted] 33000/40347 hits=0 rpm~2915 conc=300 inflight=293 429=0
+[handcrafted] 33500/40347 hits=0 rpm~2910 conc=300 inflight=299 429=0
+[handcrafted] 34000/40347 hits=0 rpm~2917 conc=300 inflight=0 429=0
+[handcrafted] 34500/40347 hits=0 rpm~2924 conc=300 inflight=110 429=0
+[handcrafted] 35000/40347 hits=0 rpm~2927 conc=300 inflight=0 429=0
+[handcrafted] 35500/40347 hits=0 rpm~2921 conc=300 inflight=199 429=0
+[handcrafted] 36000/40347 hits=0 rpm~2929 conc=300 inflight=0 429=0
+[handcrafted] 36500/40347 hits=0 rpm~2916 conc=300 inflight=299 429=0
+[handcrafted] 37000/40347 hits=0 rpm~2923 conc=300 inflight=0 429=0
+[handcrafted] 37500/40347 hits=0 rpm~2915 conc=300 inflight=253 429=0
+[handcrafted] 38000/40347 hits=0 rpm~2919 conc=300 inflight=295 429=0
+[handcrafted] 38500/40347 hits=0 rpm~2928 conc=300 inflight=192 429=0
+[handcrafted] 39000/40347 hits=0 rpm~2935 conc=300 inflight=0 429=0
+[handcrafted] 39500/40347 hits=0 rpm~2925 conc=300 inflight=249 429=0
+[handcrafted] 40000/40347 hits=0 rpm~2932 conc=300 inflight=0 429=0
+[handcrafted] done. hits=48 checked=52081
+=== phase handcrafted done in 826.5s ===
+
+
+=== phase: dict ===
+[dict] unique: 780477; new: 120000
+[counter] model=claude-opus-4-7 baseline(§§)=13
+[dict] resume: 0 done, 120000 pending
+[dict] 500/120000 hits=0 (0ppm) rpm~8601 conc=80 inflight=79 429=0
+[dict] 1000/120000 hits=0 (0ppm) rpm~10946 conc=100 inflight=99 429=0
+[dict] 1500/120000 hits=0 (0ppm) rpm~12753 conc=125 inflight=124 429=0
+[dict] 2000/120000 hits=0 (0ppm) rpm~8784 conc=195 inflight=141 429=0
+[dict] 2500/120000 hits=0 (0ppm) rpm~6460 conc=243 inflight=242 429=0
+[dict] 3000/120000 hits=0 (0ppm) rpm~3001 conc=300 inflight=0 429=0
+[dict] 3500/120000 hits=0 (0ppm) rpm~3129 conc=300 inflight=287 429=0
+[dict] 4000/120000 hits=0 (0ppm) rpm~3159 conc=300 inflight=0 429=0
+[dict] 4500/120000 hits=0 (0ppm) rpm~3026 conc=300 inflight=298 429=0
+[dict] 5000/120000 hits=0 (0ppm) rpm~3037 conc=300 inflight=299 429=0
+[dict] 5500/120000 hits=0 (0ppm) rpm~3075 conc=300 inflight=298 429=0
+[dict] 6000/120000 hits=0 (0ppm) rpm~3009 conc=300 inflight=0 429=0
+[dict] 6500/120000 hits=0 (0ppm) rpm~3054 conc=300 inflight=293 429=0
+[dict] 7000/120000 hits=0 (0ppm) rpm~3082 conc=300 inflight=58 429=0
+[dict] 7500/120000 hits=0 (0ppm) rpm~3026 conc=300 inflight=266 429=0
+[dict] 8000/120000 hits=0 (0ppm) rpm~3066 conc=300 inflight=0 429=0
+[dict] 8500/120000 hits=0 (0ppm) rpm~3030 conc=300 inflight=299 429=0
+[dict] 9000/120000 hits=0 (0ppm) rpm~3005 conc=300 inflight=0 429=0
+[dict] 9500/120000 hits=0 (0ppm) rpm~3032 conc=300 inflight=264 429=0
+[dict] 10000/120000 hits=0 (0ppm) rpm~3034 conc=300 inflight=282 429=0
+[dict] ABORT: hit rate 0ppm < threshold 2000ppm after 10000 probes
+[dict] 10500/120000 hits=0 (0ppm) rpm~3012 conc=300 inflight=288 429=0
+[dict] 11000/120000 hits=0 (0ppm) rpm~3014 conc=300 inflight=297 429=0
+[dict] 11500/120000 hits=0 (0ppm) rpm~3046 conc=300 inflight=214 429=0
+[dict] 12000/120000 hits=0 (0ppm) rpm~3003 conc=300 inflight=0 429=0
+[dict] done. probed=12000 hits=0 elapsed=239.7s
+=== phase dict done in 240.7s ===
+
+
+=== phase: hf ===
+[hf] loading Qwen/Qwen2.5-0.5B ...
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+[hf] Qwen/Qwen2.5-0.5B: 150000 candidates
+[hf] loading bigscience/bloom ...
+[hf] bigscience/bloom: 150000 candidates
+[hf] loading facebook/mbart-large-50 ...
+[hf] facebook/mbart-large-50: 150000 candidates
+[hf] loading google/mt5-base ...
+[hf] google/mt5-base: 150000 candidates
+[hf] loading xlm-roberta-base ...
+[hf] xlm-roberta-base: 150000 candidates
+[hf] loading baichuan-inc/Baichuan2-7B-Base ...
+[hf] baichuan-inc/Baichuan2-7B-Base: 125460 candidates
+[hf] loading deepseek-ai/DeepSeek-V2-Lite ...
+`rope_parameters`'s factor field must be a float >= 1, got 40
+`rope_parameters`'s beta_fast field must be a float, got 32
+`rope_parameters`'s beta_slow field must be a float, got 1
+[hf] deepseek-ai/DeepSeek-V2-Lite: 99442 candidates
+[hf] loading Salesforce/codet5p-220m ...
